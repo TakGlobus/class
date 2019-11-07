@@ -2,7 +2,7 @@
 set ns [new Simulator]
 
 #### Hyper-Parameter for Homework
-set band 0.1
+set band 100
 
 ##### Set Output Files
 set file [open out_${band}Mb.tr w]
