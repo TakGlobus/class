@@ -2,16 +2,21 @@
 set ns [new Simulator]
 
 #### Hyper-Parameter for Homework
-set band 100
+# Rate at CBR:  Mbits  at bottleneck
+set bandwidth 8
+
+# Variant of TCP
+set tcp_agent1 Reno
+set tcp_agent2 Reno
 
 ##### Set Output Files
-set file [open out_${band}Mb.tr w]
+set file [open out_${bandwidth}Mb.tr w]
 $ns trace-all $file
-set namfile [open out_${band}Mb.nam w]
+set namfile [open out_${bandwidth}Mb.nam w]
 $ns namtrace-all $namfile
-set tcpfile1 [open out_${band}Mb_1.tcp w]
+set tcpfile1 [open out_${bandwidth}Mb_1.tcp w]
 Agent/TCP set trace_all_oneline_ true
-set tcpfile5 [open out_${band}Mb_5.tcp w]
+set tcpfile5 [open out_${bandwidth}Mb_5.tcp w]
 Agent/TCP set trace_all_oneline_ true
 
 ##### Set Nodes
@@ -25,11 +30,7 @@ set n6 [$ns node]
 ##### Set Links
 $ns duplex-link $n1 $n2 10Mb 10ms DropTail
 $ns duplex-link $n5 $n2 10Mb 10ms DropTail
-
-## Necessary to change here ##
-$ns duplex-link $n2 $n3 ${band}Mb 50ms DropTail
-##
-
+$ns duplex-link $n2 $n3 10Mb 50ms DropTail
 $ns duplex-link $n3 $n4 10Mb 10ms DropTail
 $ns duplex-link $n6 $n3 10Mb 10ms DropTail
 $ns duplex-link-op $n1 $n2 orient right-down
@@ -46,7 +47,8 @@ $ns queue-limit $n2 $n3 7
 $ns queue-limit $n3 $n2 7  
 
 ##### Set TCP Agent
-set tcp1 [new Agent/TCP/Reno]
+# transmit band width 0.1Mbits
+set tcp1 [new Agent/TCP/${tcp_agent1}]
 $tcp1 set window_ 100
 $tcp1 set packetSize_ 960
 $ns attach-agent $n1 $tcp1
@@ -56,7 +58,7 @@ $ns connect $tcp1 $sink4
 $tcp1 set fid_ 0
 $ns color 0 red
 
-set tcp5 [new Agent/TCP/Reno]
+set tcp5 [new Agent/TCP/${tcp_agent2}]
 $tcp5 set window_ 100
 $tcp5 set packetSize_ 960
 $ns attach-agent $n5 $tcp5
@@ -66,25 +68,45 @@ $ns connect $tcp5 $sink6
 $tcp5 set fid_ 1
 $ns color 1 blue
 
-##### Set CBR Applicatoin
-set cbr1 [new Application/Traffic/CBR]
-$cbr1 attach-agent $tcp1
-set cbr2 [new Application/Traffic/CBR]
-$cbr2 attach-agent $tcp5
-
 ### Set Output file for TCP Agent
 $tcp1 attach-trace $tcpfile1
 $tcp1 trace cwnd_
 $tcp5 attach-trace $tcpfile5
 $tcp5 trace cwnd_
 
+##### Set FTP Applicatoin
+set ftp1 [new Application/FTP]
+$ftp1 attach-agent $tcp1
+set ftp2 [new Application/FTP]
+$ftp2 attach-agent $tcp5
+
+#### Set UDP Agent
+set udp1 [new Agent/UDP]
+$ns attach-agent $n2 $udp1
+set null [new Agent/Null]
+$ns attach-agent $n3 $null
+$ns connect $udp1 $null
+$udp1 set fid_ 2
+$ns color 2 green
+
+##### Set CBR Applicatoin
+set cbr1 [new Application/Traffic/CBR]
+$cbr1 set packetSize_ 960
+$cbr1 set rate_ ${bandwidth}mb
+# Bandwidth: 1 packes/0.001 sec ==> 1.0 x 10^3 bytes ==> 8.0 x 10^3 bits/sec
+#  K Mbits == > X x 8x10^3 bits ==> (X x 8 x10^3) x 10^-6Mbits
+#  X ==> K/(8 x 10^-3)  
+$cbr1 attach-agent $udp1
+
 
 ##### Scheduling
-$ns at 0.5 "$cbr1 start"
-$ns at 0.5 "$cbr2 start"
-$ns at 10.0 "$cbr1 stop"
-$ns at 10.0 "$cbr2 stop"
-$ns at 10.5 "finish"
+$ns at 0.0 "$cbr1 start"
+$ns at 0.1 "$ftp1 start"
+$ns at 0.2 "$ftp2 start"
+$ns at 20.0 "$cbr1 stop"
+$ns at 20.5 "$ftp1 stop"
+$ns at 20.5 "$ftp2 stop"
+$ns at 21.0 "finish"
 proc finish {} {
   global ns file namfile tcpfile1 tcpfile5
   $ns flush-trace
