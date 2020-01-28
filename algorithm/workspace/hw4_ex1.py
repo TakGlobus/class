@@ -65,10 +65,14 @@ def my_solution(x):
             for z in range(0,n+1,1):
               if array[l,z] > 0:
                 if l >= ii and z >= jj:
+                  print(array[l,z] )
                   tmp_cand += array[l,z]
-                  ii = jj+1
-                  jj = ii
+                  ii = l+1
+                  jj = ii+1
                   ik +=1
+                  #print(" ii {} jj {} ik {} | tmp_cand {}".format(
+                  #        ii,jj,ik, tmp_cand )
+                  #)
           cand_list.append(tmp_cand)
           #if ik < nk:
           #  cand_list = [0]
