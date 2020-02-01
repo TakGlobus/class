@@ -52,9 +52,9 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
   const int nk = n/2;   // integer so that 10/3 = 3 not 10.333
   
   // Array
-  int loop[n];
-  int case1[n];
-  int case2[n];
+  int loop[n*n+1];
+  int case1[n+1];
+  int case2[n+1];
   
   // Dynamic Array to avoid seg. fault
   //    1. int dp[n+1][n+1][nk+1];
@@ -117,27 +117,29 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
           
             if( darray[i][j] > 0){
               // initialize
-              for(int l=0; l<n+1; l++){
+              for(int l=0; l<n*n+1; l++){
                 loop[l] = 0;
               }
 
               // gen loop
+              int ij=0;
               for(int ii=0; ii<j; ii++){
                 for(int jj=0; jj<j; jj++){
-                  loop[jj] = dp[ii][jj][k-1];
+                  loop[ij] = dp[ii][jj][k-1];
+                  ij+=1;
                 }
               }
               
               // ---- First case ----
               int* z; 
-              z = std :: max_element(loop, loop+n+1);
+              z = std :: max_element(loop, loop+n*n+1);
 
-              int tmp1;
+              int tmp1 = 0;
               tmp1 = *z + darray[i][j];
 
               // ---- Second case ----
               // initialize
-              for(int l=0; l<n+1; l++){
+              for(int l=0; l<n*n+1; l++){
                 loop[l] = 0;
               }
               // gen loop
@@ -145,11 +147,11 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
                   loop[jj] = dp[j-1][jj][k];
               }
               int* tmp2; 
-              tmp2 = std:: max_element(loop, loop+n+1);
+              tmp2 = std:: max_element(loop, loop+n*n+1);
               
               // ---- Third case ----
               // initialize
-              for(int l=0; l<n+1; l++){
+              for(int l=0; l<n*n+1; l++){
                 loop[l] = 0;
               }
               // gen loop
@@ -157,12 +159,11 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
                   loop[jj] = dp[i][jj][k];
               }
               int* tmp3; 
-              tmp3 = std:: max_element(loop, loop+n+1);
+              tmp3 = std:: max_element(loop, loop+n*n+1);
 
               // ---- Update ----
               //dp[i][j][k] = *z + darray[i][j];
               dp[i][j][k] = std::max({tmp1, *tmp2, *tmp3});
-              
 
               //
               //
@@ -179,11 +180,8 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
               for(int jj=0; jj<j+1; jj++){
                 case1[jj] = dp[j-1][jj][k];
               };
-              //for(int jj=0; jj<j; jj++){
-              // j-1??
-              for(int jj=0; jj<j; jj++){
+              for(int jj=0; jj<j-1; jj++){
                 case2[jj] = dp[i][jj][k];
-                //case2[jj] = dp[j][jj][k];
               };
 
               // ---- Second non-update ----
@@ -198,6 +196,11 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
 
             // Store temporarily max value and index
             if(dp[i][j][k] > tmp_max ){ 
+                //std:: cout << " Update dp i j k ==";
+                //std:: cout <<  dp[i][j][k] << " " ;
+                //std:: cout <<  i << " " ;
+                //std:: cout <<  j << " " ;
+                //std:: cout <<  k << std:: endl;
                 tmp_max = dp[i][j][k];
                 tmp_k   = k;
             }
