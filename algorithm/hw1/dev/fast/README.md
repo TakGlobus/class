@@ -6,7 +6,7 @@
   `g++ -std=c++11 problem_solver_1.cpp -g -o results`  
   
   
-- Fast compile method: Very fast!!
+- Fast compile method: Very fast!!  
   `clangg++ -std=c++11 -O3 -mtune=native -march=native problem_solver_1.cpp -g -o results_fast`  
 
 #### How to debug with 
@@ -27,3 +27,11 @@ Website : [Qita: Magics to make your C++ code faster](https://qiita.com/kotauchi
 
 - `quit`   
   End of the debugging
+
+#### Yuta's code review
+- Use vector
+- Study smart pointer
+- Must initialize at first
+- Take care memory (advanced level)  e.g. valgrind ./XX.exe
+- Study array/list/vector
+- Optimize loop to reduce computation
