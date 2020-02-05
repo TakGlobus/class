@@ -5,7 +5,7 @@ problem_set_number: 1
 student_name: "Takuya Kurihana"
 problems: 356
 test_problems: 100
-time: 15
+time: 10
 test_mistakes: 0
 
  -problem: 1
