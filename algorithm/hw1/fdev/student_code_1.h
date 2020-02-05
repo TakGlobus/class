@@ -19,7 +19,6 @@
 #include <iostream>
 #include <algorithm>
 #include <array>
-#include <list>
 
 // This function should return your name.
 // The name should match your name in Canvas
@@ -35,12 +34,12 @@ void GetStudentName(std::string& your_name)
 int FindOptimalSubsequenceValue(const std::vector<int>&  a)
 {
   //  Input
-  //      a : example darray
+  //      a : example 1d vector
 
   // Const
   const int n  = a.size() ;
   
-  // Array
+  // Vector
   // gen dp vector with 0 initialize
   std::vector<int> dp(n+1,0);
   
