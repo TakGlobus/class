@@ -42,11 +42,11 @@ int FindOptimalSubsequenceValue(const std::vector<int>&  a)
   // Vector
   // gen dp vector with 0 initialize
   std::vector<int> dp(n+1,0);
-  
+  //
   //---------------------------------------------
   // Compute DP table
   //---------------------------------------------
-
+  //
   for(int i=1; i<n+1; i++){
     for(int j=1; j<n; j++){
       if(j < i){
