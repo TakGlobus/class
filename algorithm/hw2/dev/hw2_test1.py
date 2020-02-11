@@ -21,6 +21,7 @@ def my_solution(x,y):
   skip_col = 0
   for ix in range(1,nx,1):
     for iy in range(1,ny,1):
+      #
       if ix != skip_row and iy != skip_col:
         if x[ix-1] == y[iy-1]:
           dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1]+1)
