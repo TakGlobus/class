@@ -23,9 +23,13 @@ import numpy as np
 #s = "sjpgzirqwuuhzttfxtqetsfncggealzdqwmxpyisulygnmmtfhzzkkiumvduocip"
 #t = "naqihutusctsisjmziykrazehzymsocxoutwiszoabcxwgarfygduybidnzntfu"
 
-correct_answer= 11
-s="oijjgveresojcjmolkwmdicrhlcjafbifaxuweigdtrohkatddtzhgaemclwowgfiikxtwn"
-t="padztmkzdmwhmznfnhwfajaalirnwcuefwjkibual"
+#correct_answer= 11
+#s="oijjgveresojcjmolkwmdicrhlcjafbifaxuweigdtrohkatddtzhgaemclwowgfiikxtwn"
+#t="padztmkzdmwhmznfnhwfajaalirnwcuefwjkibual"
+
+#correct_answer=20
+#s="yawtfuuyisvllkyifiqvuqbrtjbvahejzjhynijyxzofbqodbpzpnxbevkbapqszmasarbjvttkjkelhokiegd"
+#t="zkpowopmvtgvixytcsfocymffbrkpknvuvfnrjuvfogytwbxeaxgpjislqhmuzcfhilgsafnrldteitffzyjfeof"
 
 def my_solution(x,y):
   """
@@ -42,17 +46,14 @@ def my_solution(x,y):
     for iy in range(1,ny+1,1):
        i = ix-1
        j = iy-1
-       if x[i] == y[j] and x[i-1] != y[j-1]:
-         if dp[ix-1,iy-1] - dp[ix-2,iy-2] == 0:
+       if dp[ix-1,iy-1] - dp[ix-2,iy-2] == 0:
+         if x[i] == y[j] and x[i-1] != y[j-1]:
            dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1]+1)
            print("tmp dp max {} | i = {} j = {}".format(dp[ix,iy], i,j))
-         else:
-           dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1])  
-       elif x[i] == y[j] and x[i-1] == y[j-1]:
-         if dp[ix-1,iy-1] - dp[ix-2,iy-2] == 0:
+         elif x[i] == y[j] and x[i-1] == y[j-1]:
            dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-2,iy-2]+1)
          else:
-           dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1])  
+           dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1])
        else:
          dp[ix,iy] = max(dp[ix,iy-1], dp[ix-1,iy], dp[ix-1,iy-1])
 
