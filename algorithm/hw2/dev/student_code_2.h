@@ -76,7 +76,7 @@ int FindLCLS(const std::string&  s, const std::string&  t)
     if ( s[ix-1] == t[0] ){
       dp[ix][1] = 1;
     } else {
-      dp[ix][1] = std::max({dp[ix-1][0], dp[ix][1], dp[ix-1][0]}) ;
+      dp[ix][1] = std::max({dp[ix][0], dp[ix-1][1], dp[ix-1][0]}) ;
     }
   }
 
