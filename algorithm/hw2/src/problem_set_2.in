@@ -1,0 +1,1530 @@
+##########################################
+# These problems were randomly generated.
+##########################################
+problem_set_number: 2
+problems: 356
+test_problems: 100
+
+ -problem: 1
+ correct_answer: 14
+ s: "sjpgzirqwuuhzttfxtqetsfncggealzdqwmxpyisulygnmmtfhzzkkiumvduocip"
+ t: "naqihutusctsisjmziykrazehzymsocxoutwiszoabcxwgarfygduybidnzntfu"
+
+ -problem: 2
+ correct_answer: 11
+ s: "oijjgveresojcjmolkwmdicrhlcjafbifaxuweigdtrohkatddtzhgaemclwowgfiikxtwn"
+ t: "padztmkzdmwhmznfnhwfajaalirnwcuefwjkibual"
+
+ -problem: 3
+ correct_answer: 13
+ s: "liwwbugatyopabarrmkowswkmzeqdogfhanrdpitizwe"
+ t: "kuixbvieuqoxgkkumqxrxunpouofdopsgsndmcfszgaomyhfhqhzgikhdlxlcptwknwjllaliszjglozdhl"
+
+ -problem: 4
+ correct_answer: 7
+ s: "lrsmedegntbmewmhjrlokmdjletwrvpvxivdgcnmnhhokruajcggqjphhrrzifclcbkzpecxmnlf"
+ t: "cqgcmkuherkznnmtviywk"
+
+ -problem: 5
+ correct_answer: 12
+ s: "jmclspusorqkyuobnpauaffhigwsumptyaircjjbthebsjqqchvxifynvormyriuqbbsebsqropgarpjxcnerprk"
+ t: "hfnjcjabrcpkpbiyoyvekjnmwrjrlajwzlldrfe"
+
+ -problem: 6
+ correct_answer: 12
+ s: "wzbnadqgylfalboulnxxhybphflvywtudbhciommre"
+ t: "rmzxbtcmgbzhrxlxcogqvbmxzvdabrphleugbkhjbotcpikoqrujqhgwubjekijyerloxkvyuqrzeiwvxmay"
+
+ -problem: 7
+ correct_answer: 11
+ s: "eqazejbidxujheuzboysfkoilppinmc"
+ t: "mzgzxwpvriwravlachbnyvnndmjtqstuhqkxuckyefctapfisofkxhdrfxxckbmrsjwpwwvmizdspxdcbiwsaoqkfamzw"
+
+ -problem: 8
+ correct_answer: 13
+ s: "mhrsktpfbauwmrkgipmkfaniildkyblhmzamfapvmhkccxinahkncwiloshejjcqfujmuyophhcngxfwpfzmmchjmwpmjafpy"
+ t: "odhhvkicfcitgmtxrrewnqkzfkywybijqmzgzsy"
+
+ -problem: 9
+ correct_answer: 10
+ s: "vlhgnbxztsnsyzdlnfbaczxjtxp"
+ t: "qygkflhxqdyebojzyebpwcndebkpduqaqxotfdayunfhczoafibxtucxoqtxcecfsemrqvjpgocwraey"
+
+ -problem: 10
+ correct_answer: 14
+ s: "foyzyzlljxgjqqvwiuqaoqehbmgrehpyupvwnyqlaqpgmomnootyoajkgndforsyoeh"
+ t: "yfzchfonlqwbdzpiqiyfvaawrkmrhabakzplccutnxyokrhbtnjb"
+
+ -problem: 11
+ correct_answer: 8
+ s: "yhofzeedktogkvflfpljmnnfkpfe"
+ t: "xbeorcelmbdymjzjnwsahppxgbhakgjcmpgrgldhjksljtidsxbtzcykgbkkholipuvvvmpgjuws"
+
+ -problem: 12
+ correct_answer: 6
+ s: "whexcdokmprfunjkphebpbyqtpzzuap"
+ t: "pecfytjrkwaftjxubjva"
+
+ -problem: 13
+ correct_answer: 7
+ s: "dwmdizdxnfinsrhnxhfaqpocabfcrskqcadjcdbnke"
+ t: "gghwtqvolxtzngtrofaahtnjoyluswz"
+
+ -problem: 14
+ correct_answer: 6
+ s: "ainqltuxnzesacfgzeccjtvaqmgznzb"
+ t: "eizjxtesjejgzsutibdcelyhoidiozonpvjvp"
+
+ -problem: 15
+ correct_answer: 10
+ s: "ghrdjfrctxgjrujwkjevhvcajyeybxicsujg"
+ t: "vuseocelsvfutbpjoexfipuvlxgduobbxqejdvwdbzgxemzhktivtozduwesxummnyvlukfw"
+
+ -problem: 16
+ correct_answer: 16
+ s: "wvaovqyfpmdbygwwnapqhjnmvkbltthweimjhwfvqzqmgzdjecwngnawgklislgpymfexo"
+ t: "nadqhzfknxitwrpxphdnkzisycjrnmhpmijpzfxrrcijwtqkgsudcrohsp"
+
+ -problem: 17
+ correct_answer: 15
+ s: "txyozstumnseldqomgnywmkcccgbtuoupeavoqearxkcw"
+ t: "tyoeuncrlvwzvfpeihnzzpsndtmzsbegppuijodjmhbutkbucatkubekxpobsnzqwumndayulcbhflhqljomb"
+
+ -problem: 18
+ correct_answer: 13
+ s: "vhmckmxsuuynhqeblybrzaztjwuidcutovbfjhrd"
+ t: "olsfpcyjoqfbaledhtipcghxpnplgysqsxjwvsitsvyvcoywbqgnzpiexqezbkucjdiylzbzjszthmebugrlrv"
+
+ -problem: 19
+ correct_answer: 7
+ s: "frolhimdtcxfeaxcbepecksdrfeuckesviwkagtwy"
+ t: "jewljguvnxwbypdavxyckxbotqoilni"
+
+ -problem: 20
+ correct_answer: 16
+ s: "acjsaeevjnnxvnnicvhtjbtpvpbmveninjufzatbrdabqjgiqirahvzrjpzrzwdwtkoycsunyenlbrxwugc"
+ t: "fqxtsrcirmqnwnqsfxlfyisekbnpphxienzpsfktscnladmffkxsesbluagryclgdv"
+
+ -problem: 21
+ correct_answer: 5
+ s: "mruumffhvjvfomwlmfbhaz"
+ t: "ulakiywxkazflctwgnuouqlawsjqqxjdkluzgsaasiekguyivxmej"
+
+ -problem: 22
+ correct_answer: 15
+ s: "csiueagzqwvnnmifjwiqebguviotxpocwxksngurhqupwi"
+ t: "xgsvssamomhpwhqexuzkppbawqmtqdrmwohsrrozxzoxxzwntvpblkotswnjajsucitwzhyjqpyxygudvzxgveyjxoyvalzg"
+
+ -problem: 23
+ correct_answer: 15
+ s: "svtdbekjzvbuwymiylsnxrxiiffvvjkngficvmxsxfqshwuokjdaarcuzsxzhfrbsecoalmr"
+ t: "akjqxrdpnqetddmzzjkeazorcavesijwqdhluvuawsgcfprnmqjtfectbtcyslcgcnbin"
+
+ -problem: 24
+ correct_answer: 12
+ s: "emrpqiymdncoaygdfmgtqnqjumdpgjhvimnydmvrusuoeqfkemkodwehlbdjeyyvgxauwtyoztwbwdqdhkqmhqgk"
+ t: "ajngfgqwoakqzzjwgcboiwbdzvukaotfe"
+
+ -problem: 25
+ correct_answer: 13
+ s: "gaohadfpnwxinlnelaidscezkomoxxsyypwmxojjpscxkbk"
+ t: "perwjdekjaqkkzedkdztvmeognjnqnxwawikpcezxsmomkifmmucnwmkhayindlhetmeytagbxvtkepoy"
+
+ -problem: 26
+ correct_answer: 5
+ s: "tqlvmseeuscjehuhqgbyzdoejatzfqyy"
+ t: "dbanetemqhdpmwxzsaxghms"
+
+ -problem: 27
+ correct_answer: 13
+ s: "cytcphtirvzahpfcjpxhtbhawptdauezrdskzhtir"
+ t: "bazzbesqyxetrlvtcqhohuledplsdcpxuiknsknsdwyuacggwmourbzeufofgebjngysjupovfgtinkaekqgrmxlz"
+
+ -problem: 28
+ correct_answer: 8
+ s: "cfgpsjgeyqbzjtnsehzvyqbt"
+ t: "mvrftkkdmtsgahmewmwiyrzsmjlnrzkbfbictviiplkgolrwzwfhupuoohzfoyrpjgwjrwxjhflkukfkkcldbzqygujtt"
+
+ -problem: 29
+ correct_answer: 13
+ s: "qzhxehkpapampojihogmjpuomgximiajdwlwzjzmixfyevqujicce"
+ t: "xytoyzxxgtsdvlyezkqdgvzntkuytrrecqyfznrwucgvkjujnxnynzbycoptwiyjmciyxlysuwurybfbmuqwjii"
+
+ -problem: 30
+ correct_answer: 20
+ s: "wvuzraxixsauorfpjaksuqrzwlitsfkfuogxjepkltoakcygkvmbtpaigwhqteoelvalwcsgwqgbdndawxbqlec"
+ t: "fzteporaldwyfycsezctgpvuuvhundmfkldtbpkcrfanlqmwmnceueoceffxolbbymvtfliqhgtlxfiehprtntjzbmqelkhpquk"
+
+ -problem: 31
+ correct_answer: 15
+ s: "jhqrbviskdjokhyyctzsytclahkpvbofzwitgghbqxbjoiucujzzrxnwxikmonjuwnwjss"
+ t: "glhmmuzfwqneetsxqpvszdlbppbuhmujuffbhrbsstnfoayfelhsuwgtgttbcgtyfnhlhvoqdggezewmnem"
+
+ -problem: 32
+ correct_answer: 12
+ s: "zabrqffhxdxktauqnumfijcqkgxfwgswxflsmwa"
+ t: "vtwexrzvlqkwfkixttmsqqqypvjmspqwwetjjtkagbcmotnmqjarz"
+
+ -problem: 33
+ correct_answer: 16
+ s: "ehgqgpiyjikhezterxhfzvmdfzchjvazgdmgrtwaqzxpvviholdobu"
+ t: "bwymwdowawioevdvvynxaiwrzvpmgjbixbjqrydffmxfqrkhkvqjqqdfmmjlytllpcgjweybzkyppqkncwfluhcnvt"
+
+ -problem: 34
+ correct_answer: 9
+ s: "xpadseebnkiuswjiwzuuigrscvxhchsyytdts"
+ t: "qrdrbqukaswheljtyrbupqvkrniljnjezfgdjfknvdqiy"
+
+ -problem: 35
+ correct_answer: 15
+ s: "ilzonjdfhevxoidfnsrtyfnxepfrpnhfzxgvygxptzbxmkymcdwcgxyqzdcgfevqfqjfttsxmrihxzrjgbkawgirxyivfxbet"
+ t: "dujmeqqspzvvmgovmecyxxpivjtrjnysxfesqzmnxlk"
+
+ -problem: 36
+ correct_answer: 8
+ s: "nxfxaqcdzcwitmzfrrshxnafbrjjfgpbdkkfucvaiikjmrexbdrkzdwzrabqhdnnlrlbmdtdvx"
+ t: "udqhuebyticexufrxpceuvuhpbvkbf"
+
+ -problem: 37
+ correct_answer: 8
+ s: "ionhoprnewcarbptuvvkjdofbejafijeykchdumxnomutaasooksyiuziwna"
+ t: "wkvbdewypmjlnccrqkwxdtpfodrt"
+
+ -problem: 38
+ correct_answer: 9
+ s: "luztbjuynyhktlfnrxdlzxebig"
+ t: "tllbhwonuzvcqimjkrlezjuuvelndrwsrxkiwmlucgiosxowxnpvvvpzfzcejomhpdjvqmv"
+
+ -problem: 39
+ correct_answer: 19
+ s: "gslsacvhqhnzritaffkduuvzqbqophbpaqqlpzinhhukxsbjwpallbxqbdwgygsqwcnvvcnmhvjzak"
+ t: "eydqibwchkkqovfwvjefbwuctovwukytimixjsplqaudmzdpxdsxmdamklgesacptosammftfnvqgxloigbxrrzmkksejmuge"
+
+ -problem: 40
+ correct_answer: 9
+ s: "bhjidcbwpncdiaqrzmntgrojplenazoeqysihvfdcpjrkghtm"
+ t: "iidrrvwhazwhzaethmijhmfwaemvqxjw"
+
+ -problem: 41
+ correct_answer: 16
+ s: "jucculunesncrygjfongrqkjsmieddlbzbmimgqsmwxxyhwpeoymemkyxonadcoehpvkxbpfnhukvgwcragmqckxalp"
+ t: "pzzccvwyiwdqzmrgjadqudzomeufxilayzfmqxhgywisqadlyxdqhkwxbfxgbd"
+
+ -problem: 42
+ correct_answer: 5
+ s: "iqjnpnepytakorvwdhiclyxetlgqizsrjiqnzzxxfeu"
+ t: "vbcpzpbjsywabpgdhdudvjc"
+
+ -problem: 43
+ correct_answer: 12
+ s: "htkbtmfsllooluqcnemgwxluqogtdqegyyepkii"
+ t: "ngqqwxspsegaoazozcvqcaetmudjwqqtxjmodbxavzlumvacaifuirwhfcladvsnfwbciddmupgoyluikraalhvzilyrvfx"
+
+ -problem: 44
+ correct_answer: 9
+ s: "jrljfcgtrjzgfxbmjyxoeveyziksy"
+ t: "kmukqutfpcbsfvmvaplhlqbomnagmpctqtkvijxxxguvivkucrtdjgtzmyvyqasmzwztcgldytregnatonntmuwutwxutfqand"
+
+ -problem: 45
+ correct_answer: 20
+ s: "rofkkujvyfkzoimoeyolfctgxplkxrbewqdprvwdbhifzipjzshzlqadxkqveozlibgjvcujcuymhviszld"
+ t: "qtluonbpjxcylhqybocwtgkrflbnhsflhxnfwuhjoduoaveutjnonsqmgxyjhbqasggyfbvbkrchihieaapshpo"
+
+ -problem: 46
+ correct_answer: 19
+ s: "dswyybuqzpihemjafyltprzcjpdljytwujewzapdvufnqwetzspzxfbpnyedrvwcwzggvajxycysocnzqbtrkywmeva"
+ t: "fryetdyrezwbsjedfxkmbxxhroqfjeqodkpghjqlluqhftmnczhicmeauavncbvzlfawlgbwotxskaohefkm"
+
+ -problem: 47
+ correct_answer: 14
+ s: "kcfrvorpkirtlyrlcdnwjbnegtvnenezuovgtxesdmclcnvijtutbcoeikzypmctkdlidhsrpucnuzlhvfcrbiwzioyegcxxavni"
+ t: "nszlaghtoytgadbodxysdlfpwqmqvmrgheefwgwcxqipoon"
+
+ -problem: 48
+ correct_answer: 16
+ s: "abqnhiviwesdwlvtsarmrhivrprlbgqqbzrvjsfgpzhzmxcmdlcfqtkwoimijljlendtluqkufkvdpbsbuiq"
+ t: "jgiewevcirbhgxiktxsbtypubbgzjqtdkchrjnfecpsgmfamjvaszvpxvqenhnefy"
+
+ -problem: 49
+ correct_answer: 11
+ s: "tyjzmmvndjlnghlazzvncmymwbroqbspmhsjtzqsgaiyeimvtvpouvokmdqqtcylbayqfvwppgaksboxumuu"
+ t: "hfipfyjrdbvogddkbobtgetxmxajqpsxyayhzy"
+
+ -problem: 50
+ correct_answer: 12
+ s: "vgmixidleqlltqsmagolmmdmrflfuyvhtrwijufgalmgziabucovqlll"
+ t: "bjeeqkovxuddrxshcenuomhnjszbjvlomvoeejftkjlxhfewqyfjgcfro"
+
+ -problem: 51
+ correct_answer: 8
+ s: "eexrkjsbayohxkhvgexpkdiqxvuvvkccmnjhdskjsgjxgrgyaylnyxlmuulafxzwibbqqel"
+ t: "kowzetiskjtiiildfvaflbzbdody"
+
+ -problem: 52
+ correct_answer: 17
+ s: "hfeidhcwurywhzvxvkuwiauxghprmqksjouhurwdhfzvmlwpbdkpanyqjgexuyd"
+ t: "laehckzdyydbjbzwibfwjvgblxnbhvbbrwmbfhbpucrtyxwgxyghmiltbvoqchghcuprchqeuefibaxvobxjqkbov"
+
+ -problem: 53
+ correct_answer: 9
+ s: "wyqkjskluupdsgbrasnunqd"
+ t: "uzuokwrjclyxqffsmzdonhefkstoixsahnlznegttgorlgpnkhbgqkkmsphaquomqwtgpamr"
+
+ -problem: 54
+ correct_answer: 14
+ s: "kivtnmaxnmilzeoyvsugifilclpdbxjukvqupofxkgtytbxmbmxidywoufzewxpvwtwhtcexsutsljjfzazdbwafw"
+ t: "bnkbxzemqsjshkwszckdvofrtsrwtapaoyjckygcvbhfpajixpe"
+
+ -problem: 55
+ correct_answer: 12
+ s: "lduorjscxusbkpupzaojorkvrjhplcpguldljbtybkbdnvmylkqrlqzcjqztqkfhvmkszvslkfzhsxsu"
+ t: "izxbmoyzrcxzshrowzwteazhfrojlcmgrobhjtmslreiq"
+
+ -problem: 56
+ correct_answer: 15
+ s: "xaoyenecmzxrolnioefdvdtkcssulztkwtoelvxhozoqqasmg"
+ t: "vrzysnbwtxfhptfbvoxxreowwtncjactwpjzhniwriceroltevophqxtsygugscdyiwytmxexmaxjcybuezxycdyrqcc"
+
+ -problem: 57
+ correct_answer: 8
+ s: "pscqgprohwdjxzcezhzgfoygdajhcfpkcksxisyytfafawbeykkcuxqamsk"
+ t: "lrzeonszaivysgyydcas"
+
+ -problem: 58
+ correct_answer: 7
+ s: "fnpakfxntantvreswxfhutrvlpkcxkdftikwumhcdyjqvbbpzeygfbbwmqp"
+ t: "vgrktfgkjbsyoladhpazoq"
+
+ -problem: 59
+ correct_answer: 10
+ s: "pawwaxphluflgbosfoyhdtlxorarbmvtlzjvbqtwgiaslsckhsukwwztsgpuwldyyrtdyeqmppgnjplyuuczdb"
+ t: "trgidxbpnvkaptlozyfhrjjayz"
+
+ -problem: 60
+ correct_answer: 17
+ s: "dljnzpijrpqpefmxdfmajbrvrbkwesqnuswamlfwnfehotmombiirpliojjxfvmih"
+ t: "lazriakdbjrgotprbrmnwlluouniyrqpoaxyavyuylvytwkicxrsjlsqbpuphtqqxaimpjcbpq"
+
+ -problem: 61
+ correct_answer: 17
+ s: "uhqboipksvmjgnhjrsskynpfhvlvjydzuhwxddagarmfpbqfwxkbxwamz"
+ t: "xdjczaeowomobkgrjqgakcgszuamuhaexpohpkfkcyvxnunweetamfchtkojdzrvbkwaeeczbpqmscxqnvcaaqbwavmwyr"
+
+ -problem: 62
+ correct_answer: 8
+ s: "ujyqiglejvflfigudajzqdvyz"
+ t: "elkxpwxkusfgonxgevajouicauudvgsyoyffitrovgkonzhalzopit"
+
+ -problem: 63
+ correct_answer: 7
+ s: "rqpwxuauvgqifhonenxj"
+ t: "uefgjiklipfwqyqbfvzptvgucracnswzmgsdvdjgfgriaydamkoxkhogtlbmtkznqgwuuzdlarxqkekstbwwj"
+
+ -problem: 64
+ correct_answer: 12
+ s: "jvrggjvthstxnhtthpszobuipyuiycgptbnbgzxswzit"
+ t: "oaapvuvnfzfwjeckxhuhhimvkntoqmsiumipcfoppcmhxoqdpxscaltqrvedciz"
+
+ -problem: 65
+ correct_answer: 5
+ s: "pnbjjsicdvddxidxitwejhifgkschgjbcapqi"
+ t: "odnxflpkzxbuqhinlppmejow"
+
+ -problem: 66
+ correct_answer: 7
+ s: "iiukctpinyumwhycuogsmduhsmwwtethioilnywu"
+ t: "anzqbomkandnnyctcscwjpyzhxemu"
+
+ -problem: 67
+ correct_answer: 14
+ s: "xqddrhkwqyhociexuzalhuacbvhcmegycmczteajbxxjjvbajorjfkhkjun"
+ t: "yvlyguzgequvftzktjufimkniroosnabhtzekbescxuzyutkufdhvcavgidhfzvqrpahkiyerpzvcjtomk"
+
+ -problem: 68
+ correct_answer: 20
+ s: "rjtswvewnvalusywfzrdevincmwkvcshrlpyjufeqfzcwcqnppsmuzbfclbswobiqqcvvqacbgbkhubsceqomzzcmmtg"
+ t: "mqdergmcrfzdqjiiqmwblrvqgdtdqhjewyqtsfhsvhpowzwfkbwufvgpnmfmlcrbfszykphvkrqxyfufytcepouofodoj"
+
+ -problem: 69
+ correct_answer: 14
+ s: "sxkopndszbqsgwobascovjtgkhgglgavthwkbtiuqzibfa"
+ t: "rxmpvsbnveefwjoryswvahepzleruuuhdexdmyrrzeijeqqzhdhucbfgrvfyllszqkuymqlaumtdhefbqmzihaehhuxaf"
+
+ -problem: 70
+ correct_answer: 19
+ s: "lmclyggmvhnwejlilyfoqkejbdrkdqwgjpuoyhywbtimfojvvvdvrkdneszgtlnzfbpifcpvirssppwodrrwqozoi"
+ t: "vsxolffpuyizfwcwloonkjuqydznuafnggkfzontwmcvvuronuxnrhnwrdvcdebvmgnkncklouyczobe"
+
+ -problem: 71
+ correct_answer: 13
+ s: "jbuanfcydwmaiihxabavgaatbpopnifycphfhnamixedkjzrvyanxmuaxpgrmpctbbxmgdguhcunwy"
+ t: "pvzmqsrjfhbbutkgvcqzrnzasnbbtjciypftstpnnspxjmcnyzs"
+
+ -problem: 72
+ correct_answer: 11
+ s: "dgwiwhhlqeptyjrwtdrwccbuwbpmawvlfhq"
+ t: "hycprrqbgtitmicphopewvufvemmqxawcgqlwwytfbjijbuivzawbskqfmtyawdedkpemrhexvucmisulr"
+
+ -problem: 73
+ correct_answer: 9
+ s: "ooswwgkvadfknjzgryqjtlct"
+ t: "magddmgxojsqoqqyceptuadrtltretfmpswyyhoyushoibyhmescwzhjetoiyhnpxngvqkfebxsqopapwjhtoyvldcxbop"
+
+ -problem: 74
+ correct_answer: 14
+ s: "rwklswmefhxenjxcgdvzcgazoywtoqqnkpuqluewnlotbohjnmpdyowuoffw"
+ t: "caonoxyyonkyxpmgfjabwjsmwudjozrjzcpashcxgjlauqpsrsetrvhoibkjssxfkjb"
+
+ -problem: 75
+ correct_answer: 15
+ s: "mpipgstcdjmzvfhtfpqciosxzpxrtlblozoupitteotlufmvbuginzq"
+ t: "xkzegseffzvejcerotfwjdreazqoerpgactktvqdyyrvgiozopifsmdecycrqujvcuekpedrumatvdcxbfornkm"
+
+ -problem: 76
+ correct_answer: 11
+ s: "grzejjmtrigbgwnjhcvtkujmxhxaxbxjhkcfzalzdidyx"
+ t: "zlgdyxcsvusjnewltlrbsatfqpdmznrwwmvibvmprixhqlxnafewrghjjdgmu"
+
+ -problem: 77
+ correct_answer: 6
+ s: "dchkurewtjzkoyeugovzpou"
+ t: "mcvrrepvbpxrduxpxlbtxgpqduowo"
+
+ -problem: 78
+ correct_answer: 10
+ s: "ynepfpmwtrnpsnncdjehxllyxchoiatjdqpk"
+ t: "vxznhuwhkkgwpldujejdrztaelmlncxjhrojzjsyvwfzbotlfhpiz"
+
+ -problem: 79
+ correct_answer: 17
+ s: "jagxguhsmnpslqmrxijqtgzixptxbsuweyqxxqcljpkzwgljfpledfwymbzqiwprevcywbgwohbswlkqqwdsheuljtmhx"
+ t: "nloaomexckpefzimxdyipzweqlmadcuvzhyvgqsgmvmidagmljxf"
+
+ -problem: 80
+ correct_answer: 20
+ s: "ppghlxxzinafjnjputqcsskxvrgcoxpvuypjjppxodjuezoscjpsvsyzvtkzesjwolegjgpvrzwhishklxpxwdnzqxso"
+ t: "psjzwkxyhdxiefedjvtlnbxliplxnzwsmxjgjephtjmgaiwpsnoxtqnpcpzkxg"
+
+ -problem: 81
+ correct_answer: 15
+ s: "uasuqfumyylviajtrrvvkbpshijjffcdsfyictqfojozeluakwxnxfnkvwkgtdzpzzlnonhwudfh"
+ t: "opypqwsahcczycrapxamoroptwxcfsxkdpvpxtezhcdnqkxoomfsqszdioeawdvkqalactihfno"
+
+ -problem: 82
+ correct_answer: 13
+ s: "kbfntppdzkyjkeedhopfrkwvcmzjisyatkvlfurztulyeylawuxwvrrrrvywkbewmkfnjzzjouchauwjn"
+ t: "xphqsiyxlvnkrqezbccmpyxecslrwpdkemxaljfnyxjevigtmvybk"
+
+ -problem: 83
+ correct_answer: 7
+ s: "pvaczjqpzfvneerelexwudcwy"
+ t: "utokcjtpqyauwedfmprqmjfpnxdthwthanciomochajxb"
+
+ -problem: 84
+ correct_answer: 22
+ s: "udcerpknzlqgjssacjehcliopkbhcawujgeqzkffbmpaxezqtzbkbnauulucsbjuathvavspkctoegjsqnzhyamd"
+ t: "uogoaelyhepnwixiqgrmggavyseazhycngjautjurwznqirmkrcccjrufcvpbmshkprlrjicmtqkxrxycrgcjiuichzeblenkd"
+
+ -problem: 85
+ correct_answer: 13
+ s: "zdbxwbmffuplfyazfcwbdgyxijdyfuqpowncmqtxoiwpvekkwtuexi"
+ t: "yqkdamaqdoavpnccbxgdxtmxjjgambdplwfzasyhzwieaoandusfet"
+
+ -problem: 86
+ correct_answer: 8
+ s: "qaisnzpijfazbikwixkiiycksrptxrddontjsgioawbersdbjdevgevvdrmyhzpqhexsjjuancrzt"
+ t: "dblxnpsvoakywaybbylttxq"
+
+ -problem: 87
+ correct_answer: 7
+ s: "jhteoakhatiwtymoommlsiksxyniwfqddkkc"
+ t: "swbgozyrlikqswysorafbdrfpafqmf"
+
+ -problem: 88
+ correct_answer: 20
+ s: "yawtfuuyisvllkyifiqvuqbrtjbvahejzjhynijyxzofbqodbpzpnxbevkbapqszmasarbjvttkjkelhokiegd"
+ t: "zkpowopmvtgvixytcsfocymffbrkpknvuvfnrjuvfogytwbxeaxgpjislqhmuzcfhilgsafnrldteitffzyjfeof"
+
+ -problem: 89
+ correct_answer: 7
+ s: "tpnlcwozfavjnqetjomifxh"
+ t: "qzxamknlyeikrirscsguorxjrlmczzmkefpubrrasrsf"
+
+ -problem: 90
+ correct_answer: 15
+ s: "pscpoceilufnycqvqoukwaakuzyxubyacghamixeqsmkpqxogyecqzs"
+ t: "bwsywqhbzsqthiparuzdikaduvzodsfnqyxmlwwkxhtifsnrvkhjwunqtpsbzuhmxcbmtcvyvqkosho"
+
+ -problem: 91
+ correct_answer: 6
+ s: "yecyrvxnrqrtxphtzmuxakfqmqgdffzdphbphitbonwvfeeousufknhc"
+ t: "dejqmqycwekzminzqjeswe"
+
+ -problem: 92
+ correct_answer: 12
+ s: "zhmrdcvuimneqwxitwvapfrdwykvpvkogilstlzmverqozvgmj"
+ t: "ilhnmxqcuplsxooikkotijrjdgjaeiktcktqjpftsakfxjnxeyqyqhvxskuxn"
+
+ -problem: 93
+ correct_answer: 8
+ s: "qqtrnuszvlriwiiuiuxgrgglmgnjzjcbktypvskrqqamrpdrfhuxbuubx"
+ t: "tccydeavtinlcsfjatdbeiwhfoklonecn"
+
+ -problem: 94
+ correct_answer: 21
+ s: "eelljqstlseevtqgznxzoshdqpkbhiycztvxozldizdxembnzhoddnvnueyohjelolnjcznshapbvdqrgfnmjggjfdnzyn"
+ t: "gopmwidgwroqvkcssrofhiygvrnuufbtqadgdtzwvabdalmdwyxxqgbiiwqnwhjtrzjucpxyxungzlrulvvoqebkxjznjqrfejm"
+
+ -problem: 95
+ correct_answer: 19
+ s: "bxnanfpxbfueqdggnepiojsccpwwcxqdineojlztkyfcqvqhuoohejjghlvscmksdezjxhpegisdvttlkhjfi"
+ t: "lmorhibyxkdwbvlnmkkjuyrbbfxmdgcskmsyejfrvmsgnpwwnujqxjpjcpircrgaftgjmlqhbjhqshrbztxiuvjqdk"
+
+ -problem: 96
+ correct_answer: 8
+ s: "gmjzexbjususxkpinjrvgxsh"
+ t: "iqvzyraadhyehfxuitxohffgmlprmlkevzknbdtkkaihnbqbdngmwqjuafkhgluiphjbwc"
+
+ -problem: 97
+ correct_answer: 9
+ s: "mvrabuuzepvqdzfnulwkjhlyxwzhxiip"
+ t: "nwxctkjywgzooqntidbsmwfntjsqobunnhdijwmftfgkxfzniqpvxobyblqnot"
+
+ -problem: 98
+ correct_answer: 15
+ s: "kwgjdalkenpdnwcsqhavttskunivmaytbunbohusgeelpwwuyndzsmnvztxsdtlzlsisibkragwefgdcpsdup"
+ t: "nyxdwpxnvnlrtzbwxfxxundxgndtlfixcmgxwespaptbfb"
+
+ -problem: 99
+ correct_answer: 12
+ s: "omeusarnjtvsiwpfwtceqgnoyplnhoptdsrrxhcmhqiarwgnqtotoepmlwaqewdkpcgqkhcfaimgvjpgvefmoauucly"
+ t: "zoqqhposgpnguyosdnhgyrljrnsvdkwbrnyapc"
+
+ -problem: 100
+ correct_answer: 12
+ s: "cnvacxojjgiqpcixtfplukuvhujcifwolodnxksd"
+ t: "enmgipgwyshjaeclznvoanlholssepdkjhoxrxrmgyfnaecrouxhhkisyiydptnmgxndlrcxoxtxeiq"
+
+ -problem: 101
+ s: "gxpunvzcwzjgmqqedamcuduosnertrrsoocphugksdiegwoethpxddbxmxopgp"
+ t: "esbewlzxwwhopgdatsksnvaqekqutzmhnwvpmvxtshrozodkwvzndvujwmxxersscrkwoiannqkjfy"
+
+ -problem: 102
+ s: "qialpwzedlkbvgkzwvoblelfnwguoeqblutokwcwnqttsaxugjuztfnk"
+ t: "dnylgieigwzhqzglehxtnxodmntvotwjkmvvsakwedbgetckypbzejwcuxfrzoxvxuomvjvylxzshfrwfhwy"
+
+ -problem: 103
+ s: "jhvrvyetwngzmdrnovnkjnohkvzjnuzpjqursnlidispillqmvohftmdmnqf"
+ t: "jdmttqrpntokdhhgrgalfuuwbnrrymiobldkmhsnadvrtjzjgza"
+
+ -problem: 104
+ s: "rvbvdglvxrutocmcopfyxqklqoudgemnzjqyfnawflcqmvpjfikbqknqihaxbyzjqytrrsjfnocaovvqqpwpnhxnrdehnxeuc"
+ t: "uigcihnqsupkinpbjgcrslxhdnnqtkhgtcyfceqenluwgadzkgxqzkslpaqenezmkidwvndazdnppys"
+
+ -problem: 105
+ s: "rhaqpzupphgaolxygysbrvyyieplyhkkjvgqnrelwxkpyfkmpuundydyll"
+ t: "bqauoplrqaueomtuwinakgpjsrtpemtqggpjogqyfekxyrqyunnaugtjaxgbhzbxwou"
+
+ -problem: 106
+ s: "awzhukuofmtgdxvtyjnbvursykjqrnmbcybwstvlvxfjuarkrlxrzktmhl"
+ t: "qvnhwzzaatyfjwasjcbwykzqtjrsfjsuecnzotgqljzqqxmqczdgupduiaxvhmobplkvzmjaiihtobigs"
+
+ -problem: 107
+ s: "yqkojhqhzbwrewossnyhebawohxodwy"
+ t: "rqxgdufohsjpmkvxmbmnyilbcrckclzgzkmobnyqotskaogklihiqiwlcvtlsnuj"
+
+ -problem: 108
+ s: "mdbcolhdwbrumygewkgifvnhkxwlthsecgdyolnmpdtqvwsm"
+ t: "dzztolkuvoicdkfiryjpfedczfvmnwrkqmrdinnbgofcdcqlol"
+
+ -problem: 109
+ s: "vnxwxuisvnupucxsdzuonnzcfmhtkkjxeip"
+ t: "gdnklyiuhsbbpxbohzfvynckxzx"
+
+ -problem: 110
+ s: "arberpiawpoqdngrcsexejnrlwfaji"
+ t: "srfpsfwsrntedbmfolsdoceistdylfxinvauvhemzsjifzirfjrphwibuinlnbeybatbjurmmxxyrqgdq"
+
+ -problem: 111
+ s: "gppernxyfjopbljiejtordkzdbvgcltbbhbidewyqsnuetyzvcxgmgvivgyubq"
+ t: "azjtbvkjvdlmyzteyjjfgvedinidonjsxecpfdtskjuoyehsnfyktnderjcwnnvwoobhasclfvwegksjwchfd"
+
+ -problem: 112
+ s: "mbxdudmsjreilxtqznwdvnake"
+ t: "kwihswwpfmvdqbpcycgvsj"
+
+ -problem: 113
+ s: "jmxpzcieugawahbsbxgedlprkvfnwmhaydrsnsnurpqffeiqypbaqocsqscfummditnvfymobmuivsayouzm"
+ t: "hfiyvpydijpuixmbpyurwoaidrzbctfmbhhwflsfmraotpbdgkxzvvspwkeaccxffq"
+
+ -problem: 114
+ s: "gouehznhrwezzlxwbezelroixpyrnjyuugdszilbhbzpmnanbxjmdxpjzkmsisegivvletaxn"
+ t: "airgovtjtmugjyelhuyoulqiuazaaoqveshqjvypkhgtrfqfsemqjgjujjtcpekbsyah"
+
+ -problem: 115
+ s: "gdosctizcemcswokafcaeoy"
+ t: "zfaokiwftxbkoawsdhiltdcp"
+
+ -problem: 116
+ s: "hivqukkzklsmdbafxhjj"
+ t: "jrjeseuwubpvbkbdjcsitulorcsvlrqukoa"
+
+ -problem: 117
+ s: "pkjzxywqxgulxkitpdmntpvfuzigujyunhzxfn"
+ t: "qprtxfaaognjubhzksfcnkbfmrflqvoewslobn"
+
+ -problem: 118
+ s: "eveuqrluolvmaszzazsxfbbgwpdkgnbifvupsxoarmlwijahjxtpjgrbizt"
+ t: "dpnckrmdluvqanwjydfvqumdvhpdeluzpcxmfvrstjljmxrxjejourqwzozhlczrxememffielmqix"
+
+ -problem: 119
+ s: "tjdvokxexzpzfxogvpvlswimzrfxzezzqhlecixllaxjhvcxmf"
+ t: "zfvkdqugglrdcoanracfqpsvcgnyencbvqknezgdsfmxruwwdhdnxsxtyhwowfngixsxwqyewrlvjqgqqqiymrt"
+
+ -problem: 120
+ s: "yxanvigdstiyezwedwwsqymdhptssiheojjvrekzhsrstjzvtigqgbzbwebn"
+ t: "rmqosmcdnvbodaspkxkwywhpmc"
+
+ -problem: 121
+ s: "gchsvswvlxitcqerqtblddbgwoyjkffpipnmuoingyhp"
+ t: "atxgackufvndirlgrprbuswqpgmgosfmfecugmsykffnmgjvcnnxsagzmrvwtkyvzcdftdncaszfhlkvahsqacfpu"
+
+ -problem: 122
+ s: "pshkpgvszaxlyxtovrohyxwzezorxanqwuqwlhpzophfguetcbbauhzfhhnuubbiurzbqcptsinmmkylewvwsyctnglwsjwqgksw"
+ t: "xbixlrqoznyitsdaxgdbyt"
+
+ -problem: 123
+ s: "rynrkzwffvtkwmpvquakgzxkofogmqnmdsqblhnbhrdfnxhodfqfbmooqifayyuuvgpysyfjdtndjpncymmayte"
+ t: "aysajobnrsbwfyzaisdkckxzlcaqentxidulpeerqvsnbukunptrxxjgmtqigclmsaxeuzdfauhafxanfoyljfzxrvbscix"
+
+ -problem: 124
+ s: "qdkahkrwoqmmhlvmjffmwwrwlvwagssvkmvwtkobx"
+ t: "yicdbhgatzpcnhnwslrtnpicgrcdpuv"
+
+ -problem: 125
+ s: "umbouitagyapveybdoifbjkyrpzwkrrgugniaepxoxmzjlfimsivuddvbfwfgaudnceiiuxevnxusanaelubfxokyp"
+ t: "lxjysiywporvrkotknwjilhpdgmtukldvwlpairaxrkqemzpyegqoevymbohogcmgrvzsqdvipkqebcqdsawrwxwrtniomcvczf"
+
+ -problem: 126
+ s: "itozlychgaaylihiqzeiepvxaifqheleanvsthaxtculxqjbonrlmkajcwkxtkmdtjmzrdpyfxfoupfgskrlv"
+ t: "jcmzykfghslwtsdffjswiqnvftlzexizpoqqfzatp"
+
+ -problem: 127
+ s: "sywkwgteqmkcugvkyvryuttbfqxetvspvzwbwuzauwvyuhowav"
+ t: "iigddcvcfyoyezxbckvjdpxzuhnjbwceyhiurhcaswyupeccblfjzqtebawrbdrneimbaaxoqgvpkgv"
+
+ -problem: 128
+ s: "frubwieaqgexcvsdclqstdvgvqjdgpsfduzqtlbpdllpjgmctoyuhrnimxqknsbkvsmhthrgziqamtem"
+ t: "pngyleyfoaluqjfctmuxzcbkfpdiotctgyjkivgzeyqxnnkwzqyzzisbmaerbsqhwx"
+
+ -problem: 129
+ s: "tmfwjpbszvnlgznzckmxqzygbzwdjjgtusnuxcssa"
+ t: "eodavawsrnkhecsaucutvrltzgppsybwrjqtzdsntsyxjgfsnwanzlmojkvshhrgodyylfrumeufjsxhhybcqwrnirnnkhsrh"
+
+ -problem: 130
+ s: "noqfylrdjjsnprfqoiqlqtmdzxxwiaosubdypstlwhsytorspcifamusqvgdkcy"
+ t: "ktqbxekraanivcheoenprruvqbnhjqtkoolgnkorfpasyffrfnrjmrzytbcdpimslegadbqimrdousmyhywctzrzmpyiedpzxw"
+
+ -problem: 131
+ s: "nmfeizjrmyjtaaizivyww"
+ t: "xxvldjimqjqjeyoprvhwirihliez"
+
+ -problem: 132
+ s: "zcybyfgidtpcbaftuqzxhmqcvqtmowawtfm"
+ t: "ojsuxujbfuweebzmbgyvclmdvlckkbzfmvgebktfmqwjdnqgajowiksoybhrrnhgrrgrxvxwhdxbhrpakxlusy"
+
+ -problem: 133
+ s: "oajfhnhbwjaoctzastpayoivexnwsihqushigqaojprrejmjjvibesijysulrwchiuircsvcysmzqmkjrgjzeuvglxbzmjqjnqh"
+ t: "cidhchggyxytuztewdrgpjljqmkxwejinzpykcbjfahivitbzyvrssjexaykesjqjeonjjwpdirnixehdmevdme"
+
+ -problem: 134
+ s: "dxsvdobhjzhrdujclczslgpkzztrunrsxnbsmmntcjijsmwkuygcfwebxyb"
+ t: "kiqrsajpwmahtzqushqfas"
+
+ -problem: 135
+ s: "yyliuwmrayhtfpezjzsx"
+ t: "qenmimudefvzevfprnybvaksenlyzygnlcpjrtxiylzjylzipnpsyxnddvtiipspzpcxjxuhocprruvestdaaiemnttfpdvin"
+
+ -problem: 136
+ s: "jlbnyrfbnvbmecggnzeqeppfoaqucrhthgp"
+ t: "cahmolcffzdqelpeonvxwkfahfnynmtcwsqdxeafdkbitvkllyadzabzbnwweymfhzuecsnm"
+
+ -problem: 137
+ s: "fleltzjommfjjckpuijnzspojzhxcjdfllpwaqlikzhvulootqntic"
+ t: "wvoameqsswaxuviiaszkeewozgqtyqmbpkzpxxibeszrnmx"
+
+ -problem: 138
+ s: "ekhuiycypueiwpfnnkdc"
+ t: "vgwsbxhrhkruhbswgnatrfscglzqkhcxiyblxwigzxjvefzzrmuztrztldjeoiliihlcturqugekczjbolfhslikfxztyr"
+
+ -problem: 139
+ s: "ijxutkqhyznepqshywgwziezxrkiizknynuzscecifofpjszbpjkjwawvznkhgcjzftpqyizvnnbbfrsm"
+ t: "ekpwhhzvwcbquwxvkgdgvcqlalnhbthpl"
+
+ -problem: 140
+ s: "xzhmfduoqnjsrgdtncmbgxtrcmujjvaaljmzskhomljigqzjuphymilcyfhrekjuomsgrnrqqxuhhabdfhabupcjkdli"
+ t: "exprkmikaegvncluqnpdsgaeldaeragaogoxtkcnlyktbxpotnmhifpyjbgufhggqmztmkchdjpwpuimjsvampnxudsnnxepmczw"
+
+ -problem: 141
+ s: "tzhgobxfjxdghegotznkttandxszapdgwxycufygjardjxqstgwyfvqcxgx"
+ t: "wqqqkzxkhklygxelaszzizsmmqxexoncertqhxbnqufwrynxegwdzxbwycoyjssulyjsejwvxzlyvdorhalfqho"
+
+ -problem: 142
+ s: "qvdufybpngrkaxwgojvamzgcgsmmliyqkoxoanorpcujvr"
+ t: "punetbkslbwegsfqxfichbmvvamzipcarlwesnnvdjrrrnmwiwfdiceztvndqrjxcknhqwzqhach"
+
+ -problem: 143
+ s: "oojacnpdnzvpvjdtgmoltostxuvhrkxhlfbaiogylugzqiavpigclbtmdalitlicp"
+ t: "fmhoyniytvsowraxknrsvfbrxsjrvunziqzpvg"
+
+ -problem: 144
+ s: "hmzcdwswvatjbjdjllgjpduzrayoftibvwmswnmxslrpexqriafzuzwrgdabxufqiexzthobsxunchfvbyrkiesrtigwrkwo"
+ t: "tclmsirhrikeoisvwpgmjqnunsonwdnqppdembybkxgxruzsvoctughiijufhpudhmvgqldzgsbdvjrjfmnjodlqav"
+
+ -problem: 145
+ s: "okemrtplwocylvhhyborudfbiaguznlrktnlknlxiadutufpbvredqrtfjqpmzawxveyxtyzwpnqszditjgezkgqps"
+ t: "evkdxwnlyermytdjksetpuamtptpvroejup"
+
+ -problem: 146
+ s: "wfflvqhnogyweriqpgnkrikkxqa"
+ t: "nkqsfgpxmrjmlsfsrlepedcpdblxnpepbgdxadajntnilhcjaiaaokrtflybygkuqcuapinqumigddinsihgvwujabzskcmnab"
+
+ -problem: 147
+ s: "kvkvmoayatmvsnlbnbtjsqxfycgfpbugbkuvwwtwvmchupdcrp"
+ t: "pbevaehmhmoauoeyamabgljdwtnbfhdxyingnekhcnxqncklqowxrulriwaihuebbkocvznnvubhfqmcuvvkdsktaltijnzegue"
+
+ -problem: 148
+ s: "aitoaahxhtwzotghnktvjjkcafairpydvbwzfjukmd"
+ t: "lrwtmcxjfieepsjzvdicvfftdcjpxcufdamxisukjbxazgnhxqmopyeeiiinlntauzsqlhuvszyfd"
+
+ -problem: 149
+ s: "psrmoahequedumhosulywnzzfgpaqfkpuflnepto"
+ t: "zowbhhfjxclhvdqbeaxcwkmgstctfkikeqcjzyypxjdfehqusljkfokdgdiybc"
+
+ -problem: 150
+ s: "vnfixzvfjhanqxavcvfxubprzbzhyremab"
+ t: "skdjuavsyaxnyfoejaalzmnopwvtlvzxldykiek"
+
+ -problem: 151
+ s: "ixfrmussehcpcvycuulupzbgcvuthgvezssakcmfrrpbstmtxgqcyblsgzrwxssomwhtfgzplwgljymxlefzocjjdwda"
+ t: "pphnhuyvbcjvekyixsrodgsvkpbguhzgtkaektdzv"
+
+ -problem: 152
+ s: "uuqpvnetjhgjfdqmbphyvpreqzjianiikotdiewdfwfluq"
+ t: "zjpovglpvdignluatpvmzkxglnihlqqembyuefloiucvdlxxbdvk"
+
+ -problem: 153
+ s: "xhtymkjdjfntqsnfkcopofuppmdhxqflzwnoguuaojclteiybluoyduhhiftqru"
+ t: "qjysggfqydgoosnwptohewnyroi"
+
+ -problem: 154
+ s: "drzqqeaeedfdgepkbssbdseisoajhkuzucfxalkcapwcxmtfxlqgsrvdvefoxxggbyiskopjtlauyprblbdflysh"
+ t: "qemjqjaxuqvegvtuujpuxhymxf"
+
+ -problem: 155
+ s: "nssqbofigxpwpqboetlsflb"
+ t: "dezfwbkegdmwyhjirqlaizkrmmmgozjzcfnmdxxbhigkwwzibzulnxahglkcocmksvslcntdyhiucakpqimol"
+
+ -problem: 156
+ s: "fhbfmvfybejiadnffucutbvbpcgyqsutnxu"
+ t: "cgkmngroxlzpxjthoabqzaxjemz"
+
+ -problem: 157
+ s: "kerdjegmfrhyifysuvwhcbvvujvdiyhblagxekcmpctbkfjqfijbuz"
+ t: "mqiucibjkymllwbxlmjsuylkckoqsaxvenvfwskeabxcbjvhtoydfawqjkznizoqacawkz"
+
+ -problem: 158
+ s: "qgyqansdgxstzzkjairwwfefbshmcxrgubwuzwsaawlrnkenegmjxuuqspih"
+ t: "uxgrcduvbqkjoxymjgawdvsnsmkpjeemliizbzuajawmzlxaclbknnymgtfafmtcmkuv"
+
+ -problem: 159
+ s: "zyinlpepmzurxkzqkvhefkgrzltduzhg"
+ t: "swkbedczwrnmyhvglirxwxdjafvygvrverjexsjlvhcoeulbbeonpkqelxcnjdcrdhnidrgzovfoytsiigjbr"
+
+ -problem: 160
+ s: "zoqspijkibourvqrhmpwdzgaezvmnqzjwv"
+ t: "krjomikilvviiakznhpdasuocnpiktljvhsy"
+
+ -problem: 161
+ s: "mcgcobqszzazwarfaeulbudtfvlulunuibrithtgzwxztveqszrb"
+ t: "pqorbpapqxnkugtnnxluyzmyefhqiuygkghaxc"
+
+ -problem: 162
+ s: "igqocmnljwdtclazpfeeuzyxvdvoeonfxvqoixgufbpfeqvmqemjygduf"
+ t: "uacydaxfyuqoqyfowaasvrzcpjpguqrtqwenwh"
+
+ -problem: 163
+ s: "oihqadpxcmgstqlplsrfbtkblbimbnzyofflrglzatmxeitjochlzjpilaeq"
+ t: "evnzdtuxjifsykbapvesgfvirmhdfclsrgfvuqpcdljcaphwhoxnafatacdht"
+
+ -problem: 164
+ s: "iveharujfokpfllycybhymbuhelfehzajihhpnkdixnpfuhmhvyfgfuxvtwhmxlezbbiwscv"
+ t: "xxdqsopvtbeuzrarsikgkjtdqmcucowopqlolwctqaamwicllkbdyfslkccfhbotdvohveul"
+
+ -problem: 165
+ s: "doyhqimdwyunewaoytwmxbkpnqpgonzjhvateucudyzudlmqdzzsnsevntfolmljbjihvqylskfumnyqfywtpnqibcjgisxexo"
+ t: "afrkofljnqcgzwrhuuwzema"
+
+ -problem: 166
+ s: "weilmoqjzndjddggjgctskknzdimdmkkxshjfahao"
+ t: "mknjqafwekcmlxjuxxcovodsmtcqntsmgeurxpsubnrkpdotjzehylbiidlokuikim"
+
+ -problem: 167
+ s: "btvdoxhfdumqkfximkwmvzvy"
+ t: "dlrtwnraribfmdzxebqgurjh"
+
+ -problem: 168
+ s: "vnzotdsdhfosaxnwthbiwixqwjxbonaehrsaddumurdg"
+ t: "xuwgyzkvwosjkhrsjcyjoeqgljgrcwmzlvrgucskmgfdgcsgncwoxmjmnuacsbujooxxtcsvvsremhmzfuhthltgabnzmacu"
+
+ -problem: 169
+ s: "eoppgeahpsflrckjorisigcljmkbjlydpnwhrdvwdvcqajamnpealkktgcgkux"
+ t: "adegxjysvmcvclqzaihfhhkyizokvrnoayxixprethjorexrvxinrdtkdzcmxqqwzfuvsgkffoqrrum"
+
+ -problem: 170
+ s: "pmhuknqqyulnfailnnsl"
+ t: "klejibbvbjtcdlqhkjktfsquznxfqnnkqgsaevmyujs"
+
+ -problem: 171
+ s: "lebyhcirgvdwsbqpdawtbufsxlqxpojuvakalnuiuosuxufivizgkyjaiqseufjpjnpjkfhqpresdoucbohmv"
+ t: "ywqpwrgwnxivxocxwmjx"
+
+ -problem: 172
+ s: "tlbdwsadlomygimivwvmvpnrdgddwjfrjlnfwpbmyswh"
+ t: "rexgkdhhbbbijvgbyatfbgjvseydfudupwkcsugtuudaxohtkixossftljehvetyvkxduvfaqj"
+
+ -problem: 173
+ s: "vryaiqnwfrjzqbrqfcrwotvelafwrixxa"
+ t: "ofavbcrjmxqvvggqrmgjyoxmikfvsxzcmyrnnqqkdiwztksefgklbzgxdjlcfghnptnvgpyzmbklihgbizkpqmirn"
+
+ -problem: 174
+ s: "iapqqnhbqvwcxkmrfzxkhzxkjufklrbhqsonewtlmiwabieiyjyniicrnjnhvbrmfqmuml"
+ t: "ptyvdnmkasngkwprlitlqesbv"
+
+ -problem: 175
+ s: "pzcpvkokghszvucfxjvzaglpqsxu"
+ t: "vigqnmvbccmigbillwfvjquyydhmtzmeqqsoclgpv"
+
+ -problem: 176
+ s: "swebopuscwdhmtmoxijrqhcnnzoebuouatbqaxqndbcpcrqloaywqyqixjfewieghlygxvnwvxqkuuqybffewr"
+ t: "zsvryoodocvhxwuvbcwwspqwowegolhucvwpqdorlgvkljhtfz"
+
+ -problem: 177
+ s: "ebcrwcbesqwwbnjaertqobz"
+ t: "qhfyacejixxpyatovbhznqhxlgmuotkrvgpiafoloomuwhnaiqniykroncvqwodcbryrbsjxlcoxgmvlcemnvgxglswwqoruyhq"
+
+ -problem: 178
+ s: "mgfcrxvabrpymrbbqrulmpfe"
+ t: "cscaskgwdlhofrxlujavczgnfsp"
+
+ -problem: 179
+ s: "phfekjxgcbgmlkqhxnejtvhvaqzlnnysbtiygjsilsombwsuncawohzyjdetioinpqpuwxyywi"
+ t: "obwesltuzpaljnklaeoigiflbelizhoxuwaee"
+
+ -problem: 180
+ s: "vzcizkruqixxicbewowgjqgtbukxbaymggepxgqazckddtmrtlvztxwzijmrwzvkfyokuzfwyuxwnrfy"
+ t: "bqvhkynmftsrplzfoxhuqgalnphknwnpfyezobitq"
+
+ -problem: 181
+ s: "nshnikzyhljrnkweubsoscqsfcjgikpctvsetvrwsxnv"
+ t: "lmpatfwovcalibulgbcdub"
+
+ -problem: 182
+ s: "yaradnysgdjexngkwccaibbu"
+ t: "swhdkuunsgvxggwcgutrdlxgtbouubwtxokejfziqqhmczkzxvggcxxuubwnqnliqcdzzhzlvcwtmvvcmzdrmkyvczdrbff"
+
+ -problem: 183
+ s: "eirwcngftgljenqqyrqkkcnyzjzxzatrakvvtwrjbkgzeyfhfnddktpawyakeilrogocukcoz"
+ t: "mgxfaqxnnumkezpxcddgxmtmiwdgquyjcmqiykorhemmoxheoanvppdklerigwckcgfqhffwguwo"
+
+ -problem: 184
+ s: "jgxbdlbzvfqrrrjegfqtdlcyddutxbhldvflcejmlqspez"
+ t: "xacipyvfpmwijfbtzeoyhnsqyolhlmgxrrhwjnhvycqmknq"
+
+ -problem: 185
+ s: "mcfnrxyssnxcytybjbpojiufzckgovrtixdhcxhkknxmjtsqerlwxitdsmdizqturg"
+ t: "smzpuiylovugajpmyxfemxanhlyrxmzaotgocxlhvrjdacxbgxdvtssexvdgzeerrlbbmhdyf"
+
+ -problem: 186
+ s: "jygqkkzxkxkuzsqduxfypxdfbfsmqaeunftdywngxlvbqbaplxkdgtpiwtprhlkkwlaiyrywtzcwmjgfzztzdkglipzrlhr"
+ t: "ujwoujnyuaicyvbddtsuz"
+
+ -problem: 187
+ s: "onzxuvtwnxbvqpagtgtspakrupchkelohxtkfxxhhrwshsvgsarivwdmkc"
+ t: "radwyglksaydmndbdbawgxznelyseedjbxrqezqzpiknyrsudcrfrnyyjaxsj"
+
+ -problem: 188
+ s: "hyrhzyfjmqlaafviadwwlsoehggfrfzzwrgxbqlhwpuimvkrdcwnzafnvromektzwdeuebygijoyiml"
+ t: "otauylqxvbmvymttglhwxtjbmrsjlahrjsszhyxkthghythnpcgkhfmlbznsmagkwnddmzjxqzpljldnmatjmdvwtfypvtlfvt"
+
+ -problem: 189
+ s: "ypmbcjzwsyizaevqqjkcegktgctygntzxisrfvbdshahcbgjuoctsjhoqvbdnlzeygqjcxeumzzglekyd"
+ t: "elmvsjtvlaemkgubmlranoipjeluadhdpnssjmlvulxqvmzitve"
+
+ -problem: 190
+ s: "ihwhwbuhygnnhikitcmgrmpxhbpqhib"
+ t: "catyuvdfgsyenrfvrrmeprptahxmjcoqbfwixprljletaouhdexlcvhqlhtyvrlmstzkurnwkjjovmkxzbwqddbgd"
+
+ -problem: 191
+ s: "telakhgchujvhlqzytespihmsxyrlcudpvypfquljhrkdgtbxkpfssahzrlmzdlnttwvtqzayryuscq"
+ t: "ikuphgohzaukfinzxxglsqeiskaaumxazphmbtfbprgwjnmdggmongukxolhmdcgzfipoxeg"
+
+ -problem: 192
+ s: "eughjfnecofybwqkcuyoqcuyptrfwtkgqlftlnfvjlimwbpqjsibpmhglgadhyahnutctlrmxfvmckivqkjjzedspcskqjx"
+ t: "znhvkqckvwgdffmtxmclvdqznftktgyedeaqquwzygvxpcsntbkdmhziqx"
+
+ -problem: 193
+ s: "ddftgdqhkmsoctszzjyagqvipuufxqcgiegtapaboehunofhafcxhscatbzeltuoiehttikjrdqeokozdmlosasxv"
+ t: "shamqysbpymtvmjgykddlwychfzhljhtyhskevfnwhithoiunsjrwfrcjyyfwunqnbhsdfnrkvkjd"
+
+ -problem: 194
+ s: "pejchrcmstbnpiucbbkjbwvggefroemzgqusozkkrydabgrobnwmutvtjfztbykopvkntmtivgfggxxsm"
+ t: "mjenqafowbwlwjuxhmrtruyqrmcijsuhnnvtutuviahxcnosjnjjsohufbzdlzhtvhlpoavntkiqmxwq"
+
+ -problem: 195
+ s: "mntdqrqfmhcttcsvgguzokihgllllgssuunbxutowtexqxozostxkmwxnrlirhksabcfdjfsqwabjgljmtnujxprvqpjxzpv"
+ t: "hpexpekxctyjmcobuwwzqqlysjeu"
+
+ -problem: 196
+ s: "smzulpsiyrdboevisbogjzxqhncgnnkuvnh"
+ t: "vkopcsnqizzkmvqarklvajmznypszwkjmnaccldwhuydepzoeizkkzjvkwsezzplznhcockvytubixdsmpmvecjkgpvzqyqjzq"
+
+ -problem: 197
+ s: "ugcbjylnehttqbdrifnlmrrnxdnhfaaboctwmahmzajsaknqzpwqryvidtglpx"
+ t: "erpxheaegqwedxrxgschuovmbuqxreadsoyzglbzgcxfqtihynbelbnvoydtadykmsg"
+
+ -problem: 198
+ s: "otfunmauuhwsrhevhbybrowaqgrgovdgvpvdarqyh"
+ t: "jcmomfujjwnsetoelnasvmufnjlwqkwboxgfsyoqvuiykkptuygvmluhdvbmytjgkuwacgqckplnykunzpcm"
+
+ -problem: 199
+ s: "lipgrldnnwzvuojsdxscvbagddnbowslasskqpaphmgmtoyxxgmizetmhzhcavviutxl"
+ t: "wcsokvmizvqoqrdbvhypcqlgcuonhcflclzvdw"
+
+ -problem: 200
+ s: "nmornxlcestplncbdztpkerzcmnwwmvmidsdfmsknxaqgibueuthqawjfgvpueyqbvethpycktxuznhmmveeuxpogyhoxqchtrld"
+ t: "gjbneumqqyrxvijoayoozlmvcwvnilpcihhymyohcbxfkglyscczkv"
+
+ -problem: 201
+ s: "lakyrblaqhxddozueevikfpxujkylejsaiobwbcostnqcpkflahkiipqznlsfuythlrohbngtlldwfl"
+ t: "zxojffwhjukistqcsuhlwsaiulokjhpzwvemzoavhqdpsajwjbntbbprkyrhiysowxkxkvqnpz"
+
+ -problem: 202
+ s: "uzbyfjvlilohgebzayncmvxjmsqxuycwiwvdqmcbptsraydjhngkkrqjvigmyizdupbjcbwqcnhzbyqxipppbvmmogoeuxni"
+ t: "guwcoipzvfrrmzlfagdpammlcdezkjsbpktchakfighodougyqcgkqzubucpjdchkegmamkuljjxtyaqfz"
+
+ -problem: 203
+ s: "hbzlvrivplcqqixhobhgpybsaw"
+ t: "vrwdegzarzcttaukryeukuyylakquyjgsivwyxkvqtey"
+
+ -problem: 204
+ s: "fitblynkbfcsvqudqikxlevvknzvylyqjqjulhcebtymcqksfqplxnkccswkenhogykvvdvytlgbmblemkojkugvkt"
+ t: "vdahysvbbaytkqzohuwrqlnlisrppsmnwxlb"
+
+ -problem: 205
+ s: "bbgydzkoddvwkrtyhhtnybtnpwobzadcgrnxflehfawifqyocwlddofqbhq"
+ t: "rkfnwsqwufhbcijddwcqkrlqievwqfvgwfycszrwxggheuokhertmuoqnfhcgpjsgbozctppohjygyshmlngsdayldflr"
+
+ -problem: 206
+ s: "jsioeqjzwcsaqirudfqbhlfffdvawheiragllozipdpiqhjxtrdiyfefsqjyochxm"
+ t: "twcuieihqwbbgjdmtnpzwrajohbtho"
+
+ -problem: 207
+ s: "ellbvtamyogafufpfzlezugxvqdduijuilnqhxwrbx"
+ t: "clqxsydjndsjmvywcdfnawtytxmiicwvlkexzsizfhidvxalyfktthgawxobcfqemndqixyulnylhkdgniburmxioxhontpmupye"
+
+ -problem: 208
+ s: "veyeemhttitfjcbjhvxqxztxoghhlkauubycrfxrdywmycdkgnrozjzyyqnvirhmzwyfupcrqjja"
+ t: "vjwyswaecxxhtznewzvhotvqpxi"
+
+ -problem: 209
+ s: "iqtkknimwcjthqpamccifgczsuwvchqalzwwgwbbkexfpzdwvdbpkisstsbjlgwahskjzrhemxchllewytrwspcautiyva"
+ t: "ubwwxijslgpsqmuhwizcvoggnbazfugjmbanzedprhdyavqoofmygqfxmryywjtandckvhrfgonrttqmmdsqjkwh"
+
+ -problem: 210
+ s: "hjjmgodqtgoqchdboxzbgbpxrxncqqimgziluxisyeprckclnyuktquyetubdfcoginunyxuqbxdwjmkbtdcd"
+ t: "mimrsyjxjppiknzaeuzvfcwxhbwuvzmezgscqjecekvsnizgvlvcqpfxqthprvfgwmrmgkyiupnajb"
+
+ -problem: 211
+ s: "ouaclnujtppedpemgqdoofraxjqkzrtznrzpetmz"
+ t: "nqkfdfftwgwhrmaarewhezqfzodxboczcvndoakjkdouepyivkdtxxldqfxhvcqewiurahqhcnqazmvoxeqbf"
+
+ -problem: 212
+ s: "hwsaccyuumqsegghqoyivtafnwwwixgogyoqufwyhfrfnyvxsruqjikxertmwfphzoetfxczpwa"
+ t: "ykmbhwwwtdsggvqljawldhqfpwmtybyqevgpldcnjbiphs"
+
+ -problem: 213
+ s: "memtzcsrazuflzknwoyctslrmcomarovmrdtnerpfnkypgxyinrfhtakytjfvldrtcxerarblnoguc"
+ t: "gnqppgcblanwgjjvlfotlnjryadavdpkbinfaeazqbhykzfgqrdsrfgurbysjshthwvyoqgqtvgzcmlhcu"
+
+ -problem: 214
+ s: "kdknxahyfxeecikdigrwrwkrnptysjicexhfytfhfrpwtgr"
+ t: "fhmrrelhvuospnhixorhhclcjomxhalspu"
+
+ -problem: 215
+ s: "obtfajqopzmrshyturdqwvnlzmmfplyjfaduyawcdfvrdhfbqzcbnxuytabzprakueovijbbtc"
+ t: "vrcpxonzfoyhezupcekzbn"
+
+ -problem: 216
+ s: "jzdyuuducjpostfwczynengmjevztpsqvcpbpehoplui"
+ t: "kdrkpwytbenjezognkuvwpzqpxobjhgypzvswkycwiwajuzojouonu"
+
+ -problem: 217
+ s: "ultsufnnlkaqqbhmqenhrjieicimqieytjyglyglbzcmtcvjnmrfkhskziqocehozfboqha"
+ t: "icbdstqyquqhhknlsecwbkgnmoamjwjloakcgbhukkpuawlqjzbbfumgrjkxvpiunfkmzrijhhtwabnrbyalztsf"
+
+ -problem: 218
+ s: "namketikevocxrdgrazrrdliymcartnftqguxpasneovmqqmkqfclaqoaujyzmfsvhght"
+ t: "gispzzyzpbjlfffwljboupx"
+
+ -problem: 219
+ s: "ajuuccwuiyglaquihmjsanzvyosfulwuuflpbgwuyvkkqapiabhhktzgixhnqufxstpcmkwgxmsecaukdh"
+ t: "jaxiorkbzetayjmncxfbwilfpruwuyfpkrmmuveazbdyvsmmutfkdzabbznj"
+
+ -problem: 220
+ s: "xschtglpbkgmgomqvxaqabqyomxdckmwscfzskrbtzsmxsuhtjiwnbfricxlbjavshdgsdpjfofwjovzpjygrzw"
+ t: "hiudpszcwanhxojqkhwzscudovmvaxomoapopsdgysxbjpjhfkgh"
+
+ -problem: 221
+ s: "iwupcdeuodbucsnkokrtoduuzpkxywfqhatsruva"
+ t: "sqgojnieybtquiyoolsgmo"
+
+ -problem: 222
+ s: "ajmghjodolmdcgtwltwzxwmktlmswvkojyalbegsqobnzksdlrwivmcexdoqvrnnaxs"
+ t: "jqsjiauwksiutkrrlzpnkcjobggwdpzzlreyblbelqssii"
+
+ -problem: 223
+ s: "ssbnghcyayrtsmhyrldtanubjbilqzrlaxiksxnviswfbkpmrjkxjkovvesvnpyutdxpjuihuqqixyqjtu"
+ t: "udavuuvldfubvjxjujkdueywjzeurclnwabeppazmlhshwxtvudugnqhuzdzcrtndmupletjetqhzaqcrbofitmswimvtsoo"
+
+ -problem: 224
+ s: "brnkgokxefdqmkmvyrdrixagdwjyeahqmguvtseyvazappm"
+ t: "zbqxozlzrzahcmpnwssesptrwgdiaavuynfvuviyswwuojjafltlljrwxcboib"
+
+ -problem: 225
+ s: "oohkfkzmsorhqxoxghesvvceedpvtdwddxymfpelxqadufovmiysskkxihyrjfxrznsiswidfpcmrwyvwfniazjzoyr"
+ t: "rryiborojqjawbzdlfnidphzycygopcuvezyrxuewhkewanfiavfnwtzpqlaujxhqkpdgsddzklamaxmmsutnpsdcfeay"
+
+ -problem: 226
+ s: "omoyalbyyvfprvqyxyogsqbtoebmcboplwrnlbjdhvaubcrjywzdzbglcuspgxnqjvpqf"
+ t: "owegtdtzxbadmdwnegtwcrfzofinqfwukjwyfcfwpvshjsnuyxbdylxiskmkwlwrgcnodipitlukjjxvyhbdgmfnwahf"
+
+ -problem: 227
+ s: "svkbrzvcgqkphtsyyzibmhjltcditjo"
+ t: "mpfsnepmglewvajmqrbjstztxevllkxklxoinvef"
+
+ -problem: 228
+ s: "ovqjmgnzrhevazzfkfqoephaaxdngqkbwb"
+ t: "iltbuasbsqddxavdyrvcpfyqytucdlzjiofzshmgupdmpweukcszmyylqmfpheknwpoegaxemt"
+
+ -problem: 229
+ s: "dycuocxtaqpvjjaotfljeipsiczwtzahouluavbj"
+ t: "lbdppuftyqotxchdqvschnvq"
+
+ -problem: 230
+ s: "oywgoxbgfjzftrtlvcdyccfefnoqaycurpkarpq"
+ t: "vospaxytwtyjybxhjtgiucpvwcxdeygguctezcshyprrzu"
+
+ -problem: 231
+ s: "ytfzvzgqnhauzgsvikjlxviydycmrhbofirzzcxagtaktvus"
+ t: "pcphcjdnhrvwrfoayzaonicmuexmqtxhgrdhrkzzaqetqdoqdrgbzfxaxzkleldtlli"
+
+ -problem: 232
+ s: "sfhgvpuwgxadkqgqaxjnzaymwtoxlawopkiapbimqx"
+ t: "tbtnerlqshkrhbzzanlbkqzgoxnwuaevcyelvrffyivntkznavhevcaxqxbreoedcopehxgusaaguhnemlcumigmkqft"
+
+ -problem: 233
+ s: "wqkcvrvsynblymlqggnchaghgsbjauogepowva"
+ t: "sgfkfjqsxuefwvmvnrfdbryjqolkigejzgqcemzmptstkjcxpchwsyjkcsxrntlssdkuomuhsgntcgiuipvf"
+
+ -problem: 234
+ s: "tajuvasqitjrarpwjvvqadebpdekfcozy"
+ t: "dnljqorsicieznqackhpmfnopdrsnksrbgzxockxuolybmsmoqeaoxqgnfrqyjmhclgxvaresufkhagiceiue"
+
+ -problem: 235
+ s: "eogsjydozzpdunujexunchiwivuiqdeokvqygctrwghizwabvylgyfwzsbqfcqqltrhwpcragqutblae"
+ t: "wuduarvdvhbwlubdvajhxyxwymebiglmowpjarmhkbwmzntwtyknlmmpzptxggopnufkqjqbrji"
+
+ -problem: 236
+ s: "mexixrszvqlcincwdxyqncyipckgjzfdnfreqoltktpwhypfpknmbqkajqpaez"
+ t: "ucfvvibdnysyzvfhlofijyjumjjmagtpiwfuzcag"
+
+ -problem: 237
+ s: "tirhmgeyvisvwgkcyujqnfsoglozredkouglcwnfkfogfrvrysozbhbsirkrptnbepn"
+ t: "oopewxesbgmgstvbnvmbrxkhxkqkcqttvllriwakxtwhgyjsmiixexrc"
+
+ -problem: 238
+ s: "wlnuupmnfqhtuteuolvwgxfkqffbjbnesyakmaujcubqbfoaktuisygwhfyfkpptdngohwfbmfwncfislxecffeepwjed"
+ t: "aqjwpizsmcgnlaqbgrnijxcpzqi"
+
+ -problem: 239
+ s: "lrwizgwlksejfhmfmhyhmwcu"
+ t: "bfgbebrtwvkaaeqpxyitxhfpvzwldmvunoucvigtrxparnerwv"
+
+ -problem: 240
+ s: "jintpcbiqvjmuulnizicjepznqvwsdlrqpfcyu"
+ t: "ptvvauwfdedrrhmsswrksvjpckxqxdocbtxgjgcrhwhurzdy"
+
+ -problem: 241
+ s: "encfohrzjqqtvkeeahtwnzwvwozy"
+ t: "jfqbnecpvmaihamvzdmgvapokvunbkpwurnlgsfpkfuomxmvxjnhiughxfcyxnbdrenjonjuvcqvlqsb"
+
+ -problem: 242
+ s: "xrohsqojaaectommhfdvfxftfbvhlgnrsgpsywt"
+ t: "uvqmgwfdwpebojgxkmskgjxzjwxnwcbzosiudduasaidiihdhwzwyszpxhyrhyadwwrabgfasvsegwhyknndtwxvdorbdwmw"
+
+ -problem: 243
+ s: "eukaufltdrjwmpdvwswwdfzckdhhkxedgwxicksvzmyekhxeimkekaqikeqsdqleknaunbrfduxnrqaqigrxdimlzwu"
+ t: "qifpjjzrfiuxwrgwzesnwnydjlk"
+
+ -problem: 244
+ s: "fwikjbamwhiopqxmknpcufvhpmoehguoamrcrblpzjmvoapqrg"
+ t: "vpymxhmukpxwgcorzhlfogebfrhjifsljvvdpulngolanohxkovablvglqngecakfhmicpjjgqdyknrgnb"
+
+ -problem: 245
+ s: "tuwgkpwjmlzgjbvlvdcksrlbibuuqnxznxpizy"
+ t: "hajjkazfcisppenjlbnklmeyxkuycxzvflqtxmwjitvpvzjcbbvfpnhwbrjyfxfmdkybikychfqkupnavguwdizublgdouky"
+
+ -problem: 246
+ s: "mypgxjnteamlbanlhjwvqnlywzzkicdnkrllvnhzynbwqcsvrpqidlxhuolodndltajooozk"
+ t: "tjjpdjyyypoyqskeuhmujimaorokwbbbpdupxh"
+
+ -problem: 247
+ s: "itecsttfeelskhcaqlrmd"
+ t: "pcjlrkndogtrgkpafurrhavxvobadjpgodncwerhjehlvfsqhcmuvrgeyl"
+
+ -problem: 248
+ s: "zrmsuqnggimltbkbfurufvbtksolpndmodzkwtcwrfiuukqtkfiivnvllyogi"
+ t: "dqqdqkicmvqpshicmkasmugkmovcwkjisavbtggrorygikebczmwiacimrfffnyidkjssbcwwxgtunabluillvrgyuhujk"
+
+ -problem: 249
+ s: "vgtwddpgqagonfytwjgajqxquxtlrsrbjyfdspssdvdivsplqfdhzccvtvvzjgztjqywktkzcqpkqmafernkglob"
+ t: "wtlaqgsxibqfsbmvyquhvduccuzjcglncfqfomxqkkgodlooeisnjyndwvzgpswul"
+
+ -problem: 250
+ s: "bwvgzsldoojlpyajejytdxsrqjhjqdryypqrgtsidwvharpeokkhyxjbikdphcdmhllhzrgfcpgzwjocd"
+ t: "tokjpmercsgxahhearpebuerioigqoxkocyvfuz"
+
+ -problem: 251
+ s: "mvyozcjcrfkldykqlrfbnnphsnvceazsjyjowtfmwwxkfkqmonelhquhgels"
+ t: "ydyrpzytgmcolxzexyobesnoiixjhqvlfewqpczszycywwjwgicgylleav"
+
+ -problem: 252
+ s: "rgyxbrlygtqrkcppibtejbmnnsclfidxofv"
+ t: "rtvwkpybumeblfmgqnfq"
+
+ -problem: 253
+ s: "qbxshrxomhzhfrdlnxsspneirrwrvwmlrtjjtyuskzkdmetcyjrpkzlmljt"
+ t: "ikmawvynnggacbqhakezmuuxsaurtwpmagcbvrabfwdznuswiywbnqvijpxvkvgrhzihnpavubl"
+
+ -problem: 254
+ s: "yamnrjhuxqkcsblaopviryolknfteisfbzkgnrs"
+ t: "jidrpvsupafgnnhgqpydniziyxgrbwfprxcqghaobsnfbwvvuxtotiilyjvr"
+
+ -problem: 255
+ s: "cngmbwrxdxvudmszgdoeklexuvvcbcludawocfyckhrdozuknljsow"
+ t: "tlxhgqtkejxacgiqgqcumofrbfiadatyjwsmtgvzvmgvvfknspuiyhaxsacvlgighuotleykxgipicaeissdlgeuznmgfiood"
+
+ -problem: 256
+ s: "psyttjbendcpckuwgrnalugzqytkzsdezvvxeltdgrmyovglkjczuumubknivluktdlbjjvgsah"
+ t: "ysnrqphpnssowjlyfbceadfoqcifizjfzkqwyfsknf"
+
+ -problem: 257
+ s: "dubegrjrjfjmxbshbnxkujgpgmnzrtjbxttgxgwwauftkov"
+ t: "ukfjoidbigddslnustusgiohyzanhpaskm"
+
+ -problem: 258
+ s: "eywkkgxcoewyuowqzevoqjdharsbmgsaigcwutldmofaducuozdbugnghjzwnbsspcfl"
+ t: "qanvtsugiqtyikivcsyutwwdyblfyngyanaltbrneoagxhhundzklwwphbiqvgkauyp"
+
+ -problem: 259
+ s: "nqdpywqyipyiumqxepmcrvdjjusgqgsykqyqkdedwkpgrhkqvomrzeegtvwrxoeblwrioadpwxpeufunifsylbrykxujnxz"
+ t: "shjdlubmvdpctebrwfbbphsqdaugwtfjxhwwkememfhtejeedvfzhhouhprztfflwcxxpdqfyowson"
+
+ -problem: 260
+ s: "gjgwqlymqfocvozybldwxdrejauqytjnthukxtjskmezjqwhbtpaxzlecfmlvrajfgrmnerdtvzpflxr"
+ t: "lzslduyfmmccuhucvzjlsywywprxrigymxsuairwsszjbtnqwlzxrkfhraqiiotkdoxfgoaafeuostlwoprwpshjrlug"
+
+ -problem: 261
+ s: "xvvkusinbiecuiosxoyogtgbgcfrehjapyyocuvfkidvrpdxkidvygzokbcuiqmoyvryzfuxeuqbte"
+ t: "pcuuxaknhzwyuiniphhztejcyhgdvkdewtaizkrfjggkawiyrullmwxoupvboucq"
+
+ -problem: 262
+ s: "pvsetjdynuhajgqnwnueifszsivldwmgujtgvycnbvowqsvhtftlyrwevjkqlrj"
+ t: "bolkhxboknzzfcjuiwxsilxmqfvgtim"
+
+ -problem: 263
+ s: "zbyfsijokajmmwjxxvjcgxookpy"
+ t: "mkhlvnwlhexaogoojqfnprozveikamgvhutjgvfghicpxzrm"
+
+ -problem: 264
+ s: "wgoylrjqosxhtyoorvnyrwa"
+ t: "cewjtjgijfammvawvfpbxhhwrzedeudfsnpoavwtcnwiydm"
+
+ -problem: 265
+ s: "fpziijziqqkmlgxjehrbgyq"
+ t: "hkqwtchjcervqjioeazmzjiglnrqsigtlxpflchjzegzdinuxughehpqyszpofibnjwjunwifdvgbjybyvuoqqkhvfyzaogw"
+
+ -problem: 266
+ s: "llsnolqdlaepxunerkxpfvfowckuooygrtkfiamrhencoslhl"
+ t: "gxwnpkipsgjqpozwitakuwjmolwpccqjjqglwbidlzppzzroecdfgqiwzen"
+
+ -problem: 267
+ s: "fvbwgyxasqqnueuawhswbpnpgoahnlkwxkpebkaufuxiqjwqewizvxjvivmrtopcobkgyspkqoqavliyyythewxrrvi"
+ t: "lfydtmyqjdngdmvlhavtwuhylsldvgzxefzxbfjnumpdkculhloogxcuxlwyiufsjomihqhlaynrkphmqcry"
+
+ -problem: 268
+ s: "iyytxvrlqeeyrjepnjzqlpybzvaqjjwzmgzvv"
+ t: "vzxdwtedhbgehtyittrzlmzumozsevukliyeb"
+
+ -problem: 269
+ s: "yfrotubouxaherejpgiykpfvdwklnb"
+ t: "vsfdqulprtjxgsfgyrdxilzmexkhhvecuqaegswcwpvngredjxulmjmbjzbignmigptiawfwsxwvkuoywioulxqsqjcqpnd"
+
+ -problem: 270
+ s: "dhvvnuwjkvfolaaegjbvpqjowpwibvqntuwecfojpbqbipsl"
+ t: "pymlsyzqzcvengntuarjmiuwmjrfmkkbzwkzkxyttiauhzsvn"
+
+ -problem: 271
+ s: "uccmiazjojhfgnogxrmsqbsviersztpqgzptizppetgsezrmqujjoozjszlk"
+ t: "urnbuqgdggzvoaybybatzcgqvpjwdivykjtfrvxifjhgqbmomsnwpwbxtnzdrbjiobmq"
+
+ -problem: 272
+ s: "nfdrwlhgfrkzjhpzhqtxwvfbwioincrnrqedllzlfgxzgwftofymxepzsefvw"
+ t: "tpaetyqnkmdqtljlelrdcgxvtfsmecdoncoinddnybadtkicrgikymwtyadquppkgakrn"
+
+ -problem: 273
+ s: "mpzjduisxppaxdeoowwupqgdypezcfjgcgdaehqfdjojqwxmyygrcnrajznmezvhjwscpcwejfoscltysugmhdjyycb"
+ t: "lfcfaoxfzdfxjhizrwkmwenwroizgurdau"
+
+ -problem: 274
+ s: "jzfijafutjqrlmyjssixfnxzvveptmrbajwvxutejoamquu"
+ t: "ymokwtarbfwgsbtcrsdxtwdbaekfqll"
+
+ -problem: 275
+ s: "jobkgpjrlzkglfmbfebgzqhradzlxqinpcvufnv"
+ t: "dufpgrdqifxcwhqsxpwsddxcscxzbhjvykondkyrhytwqwlxlmtrztoijusegzeymawhzgu"
+
+ -problem: 276
+ s: "ndtbwxguzekhnwtgmfllxrjhwfziwlxjqdaxydhbkhotlzounhxkbdehcwoxlcjgbskamglnjlsnrlqyvzeuk"
+ t: "tqnhqhmlqrckzjgjigbry"
+
+ -problem: 277
+ s: "drgjirxzovxcvxlcqxuscfkncoadnnxglcjicgzxeytdxtnwkvpdayuxkgveeukev"
+ t: "njoimfvmqfffdjehmgbuvgoqzommwgxdotukposeblskttixlmnqyajsigucltmuldgnpaplq"
+
+ -problem: 278
+ s: "jpcxhxkfrjswumcpcjlnhbqcxkqxybfvzybbxkkjadsilapxdi"
+ t: "bkcsrijxctkmarcrsjepmyiwsrvarkjfxodekjzhatramt"
+
+ -problem: 279
+ s: "ibarqbomtnxhbhltfowvfzcyzxavskfzjozsiegmyoayezzfgan"
+ t: "lxnuqlwvvvzxceebroiqyhbnywmlqriphnnaczqazqwsgwgtngq"
+
+ -problem: 280
+ s: "xvpkdxuydacmypbiahgomikkvchlumnkryj"
+ t: "otfqvvnlfmrnfifkavjlirjfnksvwieukrsvkzakntllpvklspjpmau"
+
+ -problem: 281
+ s: "vwrjrvlbiozfpapcnjsmaemyruzrqveqayusjmfzjwhccjbfpwcgs"
+ t: "bzraegclviztrvdahnmsemnmbbjuhkrguzdilaznrxvaxsisybiitxvjywrdmzqvvkrsgimgyypjiqstqfhxjklextviswhqkv"
+
+ -problem: 282
+ s: "rvggibppiivupeyaixfcglykzyfrehlannkmpgplbcuvkvgb"
+ t: "xvewrejkxzgrgocxcivojqeqew"
+
+ -problem: 283
+ s: "embumxvelyqzdoanbwze"
+ t: "wkxbniynhibdhahnuvrdapdvaxtkcyyyjhuquhhpq"
+
+ -problem: 284
+ s: "qpzectvxokagxadtboidqyffnaochttbtoujqcjlkfolmcgi"
+ t: "ysakeaqphsgdrvlwkgcopetmfuosiomezffnuikvqowdnuffshxgvkrrpnnvonevomghcsgqkqlgzhyehipiquif"
+
+ -problem: 285
+ s: "vfgwexrcdunbzapiiqejegmrtjwbseanhnf"
+ t: "rflusmnmppettyhbkcgwm"
+
+ -problem: 286
+ s: "zydpqyoktmnumjyuafiegssniguhgidbvnkrupphtvqdpjhidncd"
+ t: "snkwylwmekkcxozcsscmxubwrebotylswjxoaczkqrtfjjulvjvqoftygcbwbvypgsgkmrlxbtbrerlvhtlietckp"
+
+ -problem: 287
+ s: "pmbcsudluatfndaniflllrzsniifkwljpbnrcqqdfjyiuciarfheqnqegguydbxtjmuglvesuesjbvqdun"
+ t: "bhkeswqozorlachcbfrdkdybcuvtjkvfzqrswavuyivnsddcthgpekacynjdczzzijlqjcau"
+
+ -problem: 288
+ s: "cdgzunhkflsrtueeeaqamntzmeizbmuayfcjiagrvpout"
+ t: "ztrpocbvttdxhndjnnghwbmgfaetmyldzqpcpbaqobipsqelefwlzamxbrtlhispvyytvhegffeeqmmnpajzjvmepn"
+
+ -problem: 289
+ s: "syuvafdkmbqorsxcehdxdypyzxgmnegsatndvsx"
+ t: "vjqkcidkjhpijtewthprscupdsiwqgjyenkbnzcsjfjizoyoxpqqkmhmtchkqidyomtclwmtuww"
+
+ -problem: 290
+ s: "bygbdtnkcdlxrojoststyuofim"
+ t: "kruzdxjuyiuvousylyvvlhtkhybnpqjbsbgwkmipedueczrfhjawpacdio"
+
+ -problem: 291
+ s: "zwqmvwcpjcjusnrmuezhkvzguxusotghopidaktvzmrwgieiofvdtyawuhnmyuxypflnnijlizqdrscjmvxyghcpl"
+ t: "cjtndwtxxcxvzmkjlglbdogztsjnvpqhclywmfxceysivjcqsawtzqendpsqfvdyvdoexuechzcfktpfexnsbhrnn"
+
+ -problem: 292
+ s: "fxumjvoonixsqicixfpaqcootqobotgonhuilyjsrzheulghjnclhjtxrxfvsuxkdxxguoawagigmiaq"
+ t: "hqppflcxxlbntsxqslzcaybdwgbkr"
+
+ -problem: 293
+ s: "gunnwyxwulykgrstqvvcrfwenltbeihccqhle"
+ t: "hnwgtsfjrrtlcdqscgcihiowufyarnkqgbidffyjeibkvmngspjlvibgrjupxwtp"
+
+ -problem: 294
+ s: "ynlaneaeklkfgazavrvxwykhhlirnvaduzaueuepygjrtgtcgavywlghrezmodhmxumfgawz"
+ t: "mezkofqrdjzxjycomimybhccbztkxlvrxdldvfjlklvrygkqv"
+
+ -problem: 295
+ s: "pgdgigzirnbclfiblxegcambwmetjxdfecxkakqesqgnrwpwwmqeyixnnuhmtcicczmqiwyuzboswnchhunzrk"
+ t: "rjpuvotfqlnykykozsntrzkhzxztaqxtgnugdreylzhntzwjwovfmzkiqqxubplgdutsutsgsjtbnnezibn"
+
+ -problem: 296
+ s: "rhnemldcjvvnhlbuapgfbfllhtsirqofiejckhebalmgngtszadttkpdgjelkfhcipyssurxjsbubpeqlfqrgqtimqdypsgt"
+ t: "lhilgifpoffwjegarkbginfuctzflaxlmdbelmzljrokzkacrut"
+
+ -problem: 297
+ s: "yivboiiwhknunxfwlohccyfyjhkveacytthkwvopkehsg"
+ t: "fxxesaljnyabmsaikflkabjvltxjinizonuhirxpk"
+
+ -problem: 298
+ s: "oqkmmoytikhtsncfkqtveqadg"
+ t: "stqjdrvjqzqoqgpexjxwpktwdgjocjgcoljdohccdlnpcgqivrxaaspvkfhktytldprylmjqvbqznkdnwujpwpnlshnnstwlhq"
+
+ -problem: 299
+ s: "ysnjpmdbamcqtdvofqczqjewpkjywpvhvuenbtvpqbzxdgoznadbezspjwnlccpzxmobpajnwafhngawelfcqyfefvbg"
+ t: "ibhyddmcwkfdaforfjfgqlrxxkapeuyxoolrcnxxptprsrgdxpbbddwdgkpkgjhmvicllzgjohjkhqcuwjqopnasc"
+
+ -problem: 300
+ s: "tzouizyjinfxkbzvnapbbsvzrnwnfrxsgsrorlfpgivkco"
+ t: "cimbcedeubgpprenvharkwnokmpbkkgpijnrcrlezeekerqpqgjbxfvvirhvmdfznxartxqtpsgomzuawcjfibengsonl"
+
+ -problem: 301
+ s: "xrytsovqweqsjinfbymjykcmgoptbpexljcaelfqzxvgmpuhdlrqytdzwjxibowyhfvptjyfrjldszwevwrnwqff"
+ t: "cuxxnbjsofdyyvommxnjjdphyciqxdslmfnpnrnwldporcotcveem"
+
+ -problem: 302
+ s: "razjybfejosupbruqremiopbdhoccqocucychqsaocwqzxuprtcevytsinkrvgqgl"
+ t: "blazrbxaoepemxykpvnkfagzdulqhkkyvgpxdsredoxltgtbezkguwncgagnycutehnrqpdubgedcyiwyleemakuphfbff"
+
+ -problem: 303
+ s: "rckzrvzitknawcrkbmeetjzomfikz"
+ t: "ynjveijaxowmhbgpucdkzhlzzhdhcmuxqzfgsmypljcxyfxvrlxhrqefz"
+
+ -problem: 304
+ s: "tvrlpuksenhoevtxswqcwvvnqnkrbcigvcm"
+ t: "ogwecbdgbmmipiiklixkxtixjomxuaakovlfsubasbptmahmnidy"
+
+ -problem: 305
+ s: "lsrhkqsuvyrgsqzjnzpzmkjftznmkadtm"
+ t: "margturydvfezeptxvpauzkqoy"
+
+ -problem: 306
+ s: "plqdjmlziivjcpxjzccgqrmdzkxetbnbmcqntczwipzkvixpueuwlnaavnehzbkfyszcvkrddl"
+ t: "nahuzxnwclmmqyuztqknuakqdkllryaaaetaouwtvcehwtbdwrgusaocxhzcfclyyirnecfmvomoxeayywe"
+
+ -problem: 307
+ s: "jhkyoggwinbfjkpopzhjgwpxesmuq"
+ t: "ntwdtkudbotommfdoiueblqnngnaeefifuncrbvwmflxcctheeeilignwgcnzppsya"
+
+ -problem: 308
+ s: "qbcexqcmclcjsbzpxlognvneuroyjfsxvcusinskrqdqxfzhtxewvtssgxjsrefypkjcbqvvuwzduj"
+ t: "wrfwwhacwdkxcpavszbuqrwmimryckgmyfdyledoxzlyfusgzdxiurhiyxvujaqhiqfjzblaymttlqstrrwascllri"
+
+ -problem: 309
+ s: "goovlxvdejethcarpjxembyhswawwqlnossnzqikddcddxbauxewxcxzphbzizxe"
+ t: "zmasijhppdlhomfwnudtnkiugykfinhpcrmulfurgrmdhz"
+
+ -problem: 310
+ s: "ecfuajrvilnabkwuwyuycubwsyngyhifutvyrastjbmxxztfttdsfcjimyrojcdlctcccavoikgdcme"
+ t: "ckpgtxaucossehketgrvjjovearfwxnitklvahfkznnmaxonoglzpwfjfqzhikxavscrczadiqlkdagqwofg"
+
+ -problem: 311
+ s: "bbswdowtbpyzvnwpavcajoclqmfyuioeerymtimrrsmbeyssylkszgj"
+ t: "xmtffqbqzavljakqfccnrmmayadgvmjdpxsjtrnahdeezqcywdtnprmgxfqispjmmjywiaeytxbtjutqdmhpdnywizpozvrsizl"
+
+ -problem: 312
+ s: "jawmtffeqxxcldspwunkaqrufhjmwbnwwkachimyus"
+ t: "rcdoqtzfechhlgrbpbbfvddmtivdydmalsschsjiqzfnzwawlnqkwfvbvchsy"
+
+ -problem: 313
+ s: "jajwepvilsudceppobiitaynxbqcilpvyzkbgsvm"
+ t: "wsjazbrlqxefbrbwrzhzy"
+
+ -problem: 314
+ s: "yirwaizoxkmdpevernzmzukezgeggtmfwnfizqlrzgtiupudwcyguybiyzymdfxxfrhcronxvndrfofcnjkmxvvzosfafs"
+ t: "qmhqvpztknzlydlvptoyzgfcjyurnjdvutuo"
+
+ -problem: 315
+ s: "hisypaimhyvrpccujyhnhspxtwvodhyucoklaqlbrcgkwvzgpmogfusteqtcsytvzunqpnpswfivvvclveyc"
+ t: "njdrsnvvfvmsvhubsrweygjkldzatrrodoxyomejtiz"
+
+ -problem: 316
+ s: "msgkmoahgovzoiezkyuoqoexidfwnotfdtsthoggnjgduhdqjncagguhuiztjkjwvudvzqyvf"
+ t: "kybldexwahttprmamhmmfyiyxloldirqanrezbtnwuololoslradqac"
+
+ -problem: 317
+ s: "kzmmfzjalzuqlrtwfieruezbapouewlslkmjlzdgwqtiaksoxtkhneehiutlroixjzwndhyeetomzoibpxqwonehv"
+ t: "jqlrqbuxjeeasbxlbnazldzdyaplycaxifidsmunphqxtfdatsmnjumhvtrrmyyl"
+
+ -problem: 318
+ s: "zmuuaremgpjnppwfszmrbjusahypbeiasbszjmvqsfpmxajpdveppdhyltvmfnkctbklajjqzicdbhgioyrmbkalwpwhvymtw"
+ t: "cpqgmynfngndrmtmkbjnfctatenanjdndwrbjllyhshzqwwhaylawawbkwvg"
+
+ -problem: 319
+ s: "jlezltkmxfvnxabncubiqvlszbuoknmxnssbcxzcgnfl"
+ t: "altlpgiixoufgovgmsyjqvtwpgdupujjddaingmkgzmx"
+
+ -problem: 320
+ s: "oltpjlhehxrqjucudqcnqctyxsmxrqnypdzavzbjhytxayqlugidvualdknwkelmxcobzwomkllzfiulnwbpckiifrtbgcwbbq"
+ t: "cferkzakgthwmglyqqunwyysxcqxsiuqoqmftwgcjbacybqmupfiqnvmbotfsrerk"
+
+ -problem: 321
+ s: "ojkoqnoommbtmjphehwwecbobeshqwdyacaoezdqre"
+ t: "fsgzsdvnvfyqeglbjltvadnbawfwlcnmjouclzaxsyuocykumnvxienuqrbhcdtxmbxpljyhxnvaibww"
+
+ -problem: 322
+ s: "zjkheovpcywpyjywikcrxoycsl"
+ t: "syizzozbffipxypqaibnaspslyurasgqrvzdrilphsaxpvtpiv"
+
+ -problem: 323
+ s: "unjsfochmsevtlfhouxrooolczfehdzrwdtpykmeseklvstmrdsynynqtakxeouzgosddnypvrrrmtdacuhjxxrivepr"
+ t: "hcjdiyspakrssafkkykpgmblwstcjnlxezvjdfswbinyguiqxjyssyxvaf"
+
+ -problem: 324
+ s: "oxbxhxahwwjyogoqfevacdveknzkrnlzeznqzzymqia"
+ t: "dffmfgabwlcautgxvezgcsktgsargtcgnyieucnxrhozhb"
+
+ -problem: 325
+ s: "bwzeouecojrqtzrrweabsznfgwfchyilmpynxwalmxpdbodojffopecsvspttmfqkivwkcbnpzyskdxqyuoysyiexpe"
+ t: "upvvkicdefqqpnylnhuqouys"
+
+ -problem: 326
+ s: "bjvlmhufkxurdzopvgsmyzdelgwiddrmajesuoznnhivjcqhpgczawhlerspkaiudknvguphpbaznesdukuxrcqprpnxvrvfdbrm"
+ t: "widzmammrmggjkwnqxlliezucbiozdyjmnaflwvptadgsqdkucmhsduqpbszxg"
+
+ -problem: 327
+ s: "vfcmokxadnwzanstqbihjyavwfpnsguztkvzbcufywqsflryn"
+ t: "cmpdxhidzxuqdadzqservwqtgivflhfrtjuhjawurccllrhkdbgocf"
+
+ -problem: 328
+ s: "ylaietbcnthpswgidxukwyrfoawu"
+ t: "ovnvppunwyijmkvrixiitmgylmeurrlnypzqarzjqznyainulbxpanotkxymv"
+
+ -problem: 329
+ s: "fcnskhctymhqnxfixithorzltdgnfnjwsksteczaxqzbuyczzocxstkwmkkcrtcwkjmzmouidpadrvmdhzyfyogeeadenzvicos"
+ t: "nmsacvffnzmngzvafhsiryqbrghtztxmfyxbbgpoikyknxqskhireipuhd"
+
+ -problem: 330
+ s: "yxyerbxslxlwvumlovysimlqotfxgqpzzoceubrrwmobpnjvphnrhwvhqduisbe"
+ t: "pgpmcqlbbfdjizymfggfavbiiourtxrxad"
+
+ -problem: 331
+ s: "dbfgjoxesiienknibsdqefioxospzdtqakqedtrwcazezkfhlhrqeoesbqzizlwfrqlnbzcyvmlqinjkpxmzzm"
+ t: "qegdqlxhcqwtatprdkunnselzyxuxuegakvzjhwyqcucplzpefxrdhodtsqhmtyf"
+
+ -problem: 332
+ s: "gdfmucyrqrysfyogkyewtufmoxwjqzugbxebwwsfagkqwecqlubsxyfoqawklontstvrsxte"
+ t: "xedohrhsvwaekabjwsdmgcmvfnufihqjxspiwrcgroootcjcogruxg"
+
+ -problem: 333
+ s: "qwvnoaclpiskoimitiqolrwnhhwhpahamkokyyloyuakxprxuwqqxuimtzzsatxg"
+ t: "mfbkwfjocuuvoelfhoqyfvdtabinecwaksmaxgkultgbbcwpiwliibufdmzadtbtzxmgfahqeqeflrjj"
+
+ -problem: 334
+ s: "rplhzcuczqgkavczfdtafaqhkudbtitpfhenogekrraxcmsecbtddoyfsihntrjvchkbqypb"
+ t: "sezmovmycwihpeingmtpoxnphdwbepqzibhajbjthutngchfrxgxgotrbmjbhofvxxpvqdninfokibxyjwada"
+
+ -problem: 335
+ s: "ojaklvfoqvpzdiakjukrgjtbyzsyrprsylizurbeqsimuzmlxegtdknmmwaslwlctpvhdwkchcovbolmxtjdidaljovo"
+ t: "kpksqddxorabvwcunzgxlgqrxvsczlzrsnuuzhixndfelqyqrwglskwhhviluvihgvohiqehbiyifwleciwkupkeoxlilpvfcber"
+
+ -problem: 336
+ s: "rjvckzdcrbqonatfriglpkvlapdufdlzpptgwdtfukirtckpyrlks"
+ t: "cdynnzlmvnhciobpqydqdfsnfzecusxjnwoklfoireymtyobsnzbpuvzktciyeuqvox"
+
+ -problem: 337
+ s: "jlaudesyixqjsopzrxynviojvrcvupofdkwxkcfcboqhlyorbqptpbnhvvavtmntondepr"
+ t: "gxeocglaxjvfmrgwkheqznhfqpnouewuoserkepaizteyujrpwhgtqztgafiuzyawdamzf"
+
+ -problem: 338
+ s: "ldipytroqpmxvbmznjyannrdpswamszqdbulfudlwayiddfzyekijsyytqpnzqsbmvspkainklanax"
+ t: "hgrsmmuvajwjzbtllyjcz"
+
+ -problem: 339
+ s: "nrxdqckrtrmilfiunvihjtyoiiytqargpwpsokxxquagtpjo"
+ t: "qrwjyfpyqowusxrqnlfitfclxdfwhedpucpdamhkbnesvcsbkhthgdptbyhvwxkxfbladxbvrexyxxxceevhmdiqjelpayz"
+
+ -problem: 340
+ s: "fmgcuumcwvxlehbejxvmzsgcrxjjeyhisvzpwittnvcydkcozzfocuavbsiadhetnumkyyyj"
+ t: "baucljsmenouekzxhbnqfpxmtaoegdqubbvbrxkxrzldmosrezblfhdxjipirozbdciypdifavacbypcabhmwc"
+
+ -problem: 341
+ s: "snzpjzfashlhtslfnsiqsbtqpuzykebqptuxnrwqnfiodzzjeibaimmsxwqmeodwbepbayjzcdnpcrujmshsxvwoachar"
+ t: "rjzpgntsmdjqyccomppvcg"
+
+ -problem: 342
+ s: "gqfbhetniijwagwdmqrqsvewbkhonlnnatafsnbxnregcozlgafwygvsxyaomxvh"
+ t: "rrqmbfgggcvukmyqgimuxrefolfcehqkfewikp"
+
+ -problem: 343
+ s: "vprnbuzaquymiezjrbigu"
+ t: "gpejzuebzcqhjgcexepxuctdicygbcjteqyxseinbkgmgptymld"
+
+ -problem: 344
+ s: "aoqogqsfpcbwydamdzekckkrxvzzodbjllpdrlbzmejbfvoofybtlqcjbiauqbrlavqhbmbuttuuuqyqmtdm"
+ t: "ltfvzheriigwgunmnjmpxqdynafoenfgbcommcgohxiosabiscwuwefrcxcmrjwfufztu"
+
+ -problem: 345
+ s: "xglafwryahoxqhtfkhiztvmxvddrobzhdrcgngriijxxaeqbzusnmzbf"
+ t: "bbhsrmecmdvsuiwospnunojfqwhtomylwayboui"
+
+ -problem: 346
+ s: "vsviiezipbamnagvmyskuhphjeezofwalpjr"
+ t: "kjmlxbntreruzuwikjkcbypjunymqtszyohuldrshkxgycfgyjibdxytfinxulfbkrhbzagiy"
+
+ -problem: 347
+ s: "wtmdjqsxeueiuxglexiavbsyqcevnsqkvfygvazanpjekipzqurhaulxhtccbconvhxxqvshnxtusxkjcvsyvuqfpsxjabuols"
+ t: "gmhmpxmpljxfjdcqfnbxkfqqhybpchwuocdyaehbn"
+
+ -problem: 348
+ s: "gpbtmxyrjjvlhydovhuibhbdabntjzyznfbfgaaiiegiugnbhyfukapjoeqsqlbxhjrezoyowscurkmjvlflvwbnyqp"
+ t: "mocwbkvqptnqqxtdxignxdpriejufeallcpmiptsqtmiqsadmo"
+
+ -problem: 349
+ s: "fokgxvidpppmxydojbhazoagriqfnylcdiswoeeppedhtmudarhkmwaylflbpupxcpzheuwqwouzzdmwwqqnrneyxmj"
+ t: "kchcueyxuimdbqwkrxuew"
+
+ -problem: 350
+ s: "dnnmfubhlkdbnpgtjbaeoroqmywbptceyqdgnsjxlqcawhqowffbfqlpnudzpdxebaeucfpmnpvoksxonikipyyyf"
+ t: "kplbhaypbnlyofhiyigulxjuotcinmaseadausaf"
+
+ -problem: 351
+ s: "yvkktpmumtjuzfifyftwaxpfahywmoarnutznhhcpxfxhhvtibmuwmmfeitblypltogdiuq"
+ t: "palcvskebygbaunazjkmmtnlcesbvkfigexidannjbncobkqxovrdluovjrizoi"
+
+ -problem: 352
+ s: "vuwxielqstcjaaxdvlgiypzwmsjhywsoqq"
+ t: "xolxpynupyzjsgwthaxxtsgkxpxgwqtpsscfmqmkgwhyihiziopjazworu"
+
+ -problem: 353
+ s: "duqvakzttnbkooetzflkymmkukuffcyjw"
+ t: "pgmqocditviaqdqestflrmhszxvxvl"
+
+ -problem: 354
+ s: "hxfswpgqecqcbmhixkcgpvaciqmvtegnyhyoukuhqdycifywwkyuafffafcgoqwnpzljqujtskupqivvckzlelworw"
+ t: "gtwyvjzhtvhqtesussdqddiejeqiiswfluuddfkxcfyqyfvygvlftzhpydufin"
+
+ -problem: 355
+ s: "xkingwnxytgcpmhaznmahelvdqalaehxacczdwxjnelivikdzxuvejgugacxunakbhutbsaogyy"
+ t: "xvxbkrhbeptipyutbzdtgaxwtswajaxwduevmwjzmcxu"
+
+ -problem: 356
+ s: "geivkjumzfdrwyqupovsdddjqbabvengninngmkhllxbjhmuuufbhkfqeoufnsn"
+ t: "ofosvmjclzqmkrcbsfadchdfmecl"
