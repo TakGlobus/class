@@ -9,15 +9,15 @@ import numpy as np
 #s = "aaadbbbba"
 #t = "aaacbbbbc"
 
-#correct_answer=2
-#s='elep'
-#t='elepppp'
+correct_answer=2
+s='elep'
+t='elepppp'
 #correct_answer=4
 #s='elephant'
 #t='elephantt'
-correct_answer=3
-s='eleph'
-t='elephphhhhhhhhhp'
+#correct_answer=3
+#s='eleph'
+#t='elephphhhhhhhhhp'
 
 #correct_answer = 14
 #s = "sjpgzirqwuuhzttfxtqetsfncggealzdqwmxpyisulygnmmtfhzzkkiumvduocip"
@@ -33,9 +33,9 @@ t='elephphhhhhhhhhp'
 
 
 # -problem: 10
-#correct_answer=14
-#s="foyzyzlljxgjqqvwiuqaoqehbmgrehpyupvwnyqlaqpgmomnootyoajkgndforsyoeh"
-#t="yfzchfonlqwbdzpiqiyfvaawrkmrhabakzplccutnxyokrhbtnjb"
+correct_answer=14
+s="foyzyzlljxgjqqvwiuqaoqehbmgrehpyupvwnyqlaqpgmomnootyoajkgndforsyoeh"
+t="yfzchfonlqwbdzpiqiyfvaawrkmrhabakzplccutnxyokrhbtnjb"
 
 # -problem: 17
 # correct_answer: 15
@@ -67,7 +67,8 @@ def my_solution(x,y):
     if x[ix-1] == y[0]:
       dp[ix,1] = 1
     else:
-      dp[ix,1] = max(dp[ix-1,0], dp[ix,1], dp[ix-1,0])
+      dp[ix,1] = max(dp[ix,0], dp[ix-1,1], dp[ix-1,0])
+      print(dp[ix-1,0], dp[ix,1], dp[ix-1,0])
 
 
   for ix in range(2,nx+1,1):
