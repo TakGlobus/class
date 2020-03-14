@@ -48,16 +48,22 @@ def FindOptimalColoringWeight(r,g,b):
       for k in range(colors):
         if k == 0: 
           # red is missing
-          dp[i,k] = max(dp[2*i-3,1] + dp[2*i-4,2] + g[2*i-1] + b[i], 
-                           dp[2*i-3,2] + dp[2*i-4,1] + b[i-1] + g[i])
+          dp[i,k] = max(dp[2*i+3,1] + dp[2*i+4,2] + g[2*i+3] + b[2*i+4], 
+                           dp[2*i+3,2] + dp[2*i+4,1] + b[2*i+3] + g[2*i+4])
+          #dp[i,k] = max(dp[2*i+3,1] + dp[2*i+4,2] + g[i+1] + b[i], 
+          #                 dp[2*i+3,2] + dp[2*i+4,1] + b[i+1] + g[i])
         elif k == 1: 
           # green is missing
-          dp[i,k] = max(dp[2*i-3,0] + dp[2*i-4,2] + r[i-1] + b[i], 
-                           dp[2*i-3,2] + dp[2*i-4,0] + b[i-1] + r[i])
+          dp[i,k] = max(dp[2*i+3,0] + dp[2*i+4,2] + r[2*i+3] + b[2*i+4], 
+                           dp[2*i+3,2] + dp[2*i+4,0] + b[2*i+3] + r[2*i+4])
+          #dp[i,k] = max(dp[2*i+3,0] + dp[2*i+4,2] + r[i+1] + b[i], 
+          #                 dp[2*i+3,2] + dp[2*i+4,0] + b[i+1] + r[i])
         elif k == 2: 
           # blue is missing
-          dp[i,k] = max(dp[2*i-3,0] + dp[2*i-4,1] + r[i-1] + g[i], 
-                           dp[2*i-3,1] + dp[2*i-4,0] + g[i-1] + r[i])
+          dp[i,k] = max(dp[2*i+3,0] + dp[2*i+4,1] + r[2*i+3] + g[2*i+4], 
+                           dp[2*i+3,1] + dp[2*i+4,0] + g[2*i+3] + r[2*i+4])
+          #dp[i,k] = max(dp[2*i+3,0] + dp[2*i+4,1] + r[i+1] + g[i], 
+          #                 dp[2*i+3,1] + dp[2*i+4,0] + g[i+1] + r[i])
 
   # final
   opt_weight = 0
@@ -65,6 +71,7 @@ def FindOptimalColoringWeight(r,g,b):
       opt_weight = max([ dp[i,k] for k in range(colors)])
   for k in range(3):
     opt_weight += dp[0,k]
+  opt_weight += r[0] + g[0] + 
 
   return opt_weight
 
