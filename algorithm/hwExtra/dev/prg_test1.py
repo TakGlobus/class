@@ -40,22 +40,32 @@ def FindOptimalColoringWeight(r,g,b):
         2 - edge  ei o.w.
     
     weights are expressed as r_{ei} = r[i]
+
+
+    Approach:
+      Let dp[u,Ci] define as 
+        dp[u,Ci] := largest weight of edge coloring tree where subtree is rooted at node 'u', and 
+                    there is missing color Ci s.t.
+                    Ci == 0 : Red   is missing edge color between u and the child nodes v_1 and v_2
+                    Ci == 1 : Green is missing edge color between u and the child nodes v_1 and v_2
+                    Ci == 2 : Blue  is missing edge color between u and the child nodes v_1 and v_2
+
+      If u == root node of entire tree, there are six combinations so pick one that maximize combination of 
+              already computed dp and R-G-B.
+
   """
-  #nedges = len(r) #+ len(g) + len(b) 
+
+  # Const.
   nedges = min(len(r), len(g), len(b) )
   nodes = nedges + 1
   colors = 3
-  nchild = 2
   nonLeafIdx = (nodes-4)/2-1 # index larger than the number is leaf node
-  #print(a)
-  #nonLeafIdx = ((nedges-1)-4)/2 # index larger than the number is leaf node
-  print(nonLeafIdx)
-  print(np.sum(r) + np.sum(g)+np.sum(b))
-  #nonLeafIdx = int(((nedges-1)-4)/2) # index larger than the number is leaf node
+  print("\nCheck index where non leaf nodes start",nonLeafIdx)
+  print("Check sum of all weight",np.sum(r) + np.sum(g)+np.sum(b))
+
+  # dp table
   dp = np.zeros((nodes,colors))
 
-  # Root node
-  #dp[0,4] = # sum up
 
   # Child nodes
   for i in range(nodes-2,-1,-1): 
@@ -93,7 +103,7 @@ def FindOptimalColoringWeight(r,g,b):
   for (i,j,k) in itertools.permutations([l for l in range(colors)]):
       print(dp[0,i]+dp[1,j]+dp[2,k])
 
-  # final
+  # Root Node
   opt_weight = 0
   tmp_weights = []
   tmp_weights = [
@@ -104,11 +114,6 @@ def FindOptimalColoringWeight(r,g,b):
     dp[0,2]+b[0]+dp[1,0]+r[1]+dp[2,1]+g[2],
     dp[0,2]+b[0]+dp[1,1]+g[1]+dp[2,0]+r[2],
   ]
-
-
-  #for (i,j,k) in itertools.permutations([l for l in range(colors)]):
-      #tmp_weights.append(dp[0,i]+r[i]+dp[1,j]+g[j]+dp[2,k]+b[k])
-      #tmp_weights.append(dp[0,i]+dp[1,j]+dp[2,k])
       
   opt_weight = np.max(tmp_weights)
   print(tmp_weights)
