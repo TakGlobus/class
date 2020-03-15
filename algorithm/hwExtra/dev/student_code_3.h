@@ -79,20 +79,14 @@ int FindOptimalColoringWeight(const std::vector<int>&  r, const std::vector<int>
 
 
   // Root node
-  int opt_weight = 0;
-  int tmp_weight = 0;
-  int array[]={0,1,2};
-  do{
-    for(int l=0; l<3; l++){ 
-      int i = array[0];
-      int j = array[1];
-      int k = array[2];
-      // compute tmp weight
-      tmp_weight = dp[0][i]+r[i]+dp[1][j]+g[j]+dp[2][k]+b[k];
-      if (tmp_weight >= opt_weight){
-        opt_weight = tmp_weight;
-      }
-    }
-  }while(std::next_permutation(array,array+colors));
+  //TODO: Rewrite below poor man approach
+  int opt_weight = std::max({
+    dp[0][0]+r[0]+dp[1][1]+g[1]+dp[2][2]+b[2],
+    dp[0][0]+r[0]+dp[1][2]+b[1]+dp[2][1]+g[2],
+    dp[0][1]+g[0]+dp[1][0]+r[1]+dp[2][2]+b[2],
+    dp[0][1]+g[0]+dp[1][2]+b[1]+dp[2][0]+r[2],
+    dp[0][2]+b[0]+dp[1][0]+r[1]+dp[2][1]+g[2],
+    dp[0][2]+b[0]+dp[1][1]+g[1]+dp[2][0]+r[2],
+  });
   return opt_weight /* your answer */;
 }
