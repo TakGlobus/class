@@ -1,4 +1,4 @@
-### HW1
+### HW3
 
 
 #### How to compile
@@ -28,10 +28,5 @@ Website : [Qita: Magics to make your C++ code faster](https://qiita.com/kotauchi
 - `quit`   
   End of the debugging
 
-#### Yuta's code review
-- Use vector
-- Study smart pointer
-- Must initialize at first
-- Take care memory (advanced level)  e.g. valgrind ./XX.exe
-- Study array/list/vector
-- Optimize loop to reduce computation
+#### For better code
+- Modify computation for root node
