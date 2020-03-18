@@ -52,12 +52,20 @@ def FindMinParition(x):
 
       ## node u is NOT included in Path i
       else:
-          #dp[inode,ipath] = dp[inode-1,ipath] # generic version
-          if dp[inode-1,ipath] < inf:
-          #  dp[inode, ipath] = np.min( [dp[inode-1,j] for j in range(npath)]) + 1
-            dp[inode, ipath] = np.min( [dp[inode-1,j] for j in range(npath)]) + 1
-          #dp[inode, ipath] = np.max( [dp[inode-1,j] for j in range(npath)]) + 1
-    #print(dp[inode, :])
+          search_index = [ x[inode-1,ii] for ii in range(npath) ]
+          update = False
+          for idx, ii in enumerate(search_index):
+            if ii == 1:
+              if dp[inode-1,idx] == inf:
+                update = True
+      
+          if update:
+            if dp[inode-1,ipath] < inf:
+              dp[inode, ipath] = np.min( [dp[inode-1,j] for j in range(npath)]) + 1
+          else:
+            if dp[inode-1,ipath] < inf:
+              #dp[inode, ipath] = np.min( [dp[inode-1,j] for j in range(npath)])
+              dp[inode,ipath] = dp[inode-1,ipath] # generic version
 
   print(dp)
   #print([dp[nodes,j] for j in range(npath)])
