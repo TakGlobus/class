@@ -14,6 +14,8 @@ import numpy as np
 #x = [1,18,19]
 correct_answer=7
 x = [18, 11, 40, 14, 41, 44, 33, 49, 17, 2, 43, 1, 28, 46, 26, 14, 21, 41, 8]
+#correct_answer=5
+#x= [6, 21, 17, 27, 7, 21, 13, 2, 12]
 
 ## Test
 dataset_list = [
@@ -41,7 +43,7 @@ answerset_list=[
 ]
 
 
-def FindLongestStableArray(x):
+def FindLongestStableArray1(x):
   """
     INPUT
       x : input sequence
@@ -60,14 +62,12 @@ def FindLongestStableArray(x):
         if k<j<i:
           if x[j] <= x[i] and x[i]<= x[k] :
               if dp[j,k] == 0:
-                #print(x[k],x[j],x[i])
+                print(x[k],x[j],x[i])
                 dp[i,j] = max( dp[j,k]+2, dp[i-1,j])
           elif x[k] <= x[i] and x[i]<= x[j] :
               if dp[j,k] == 0:
-                #print(x[k],x[j],x[i])
+                print(x[k],x[j],x[i])
                 dp[i,j] = max( dp[j,k]+2, dp[i-1,j])
-              #else:
-              #  dp[i,j] = max( dp[j,k]+1, dp[i-1,j])
 
 
 
@@ -80,33 +80,89 @@ def FindLongestStableArray(x):
           #if ( x[j] <= x[i] and x[i]<= x[k] ) or ( x[k] <= x[i] and x[i]<= x[j] ):
           if x[j] <= x[i] and x[i]<= x[k] :
               if dp[j,k] == 0:
-                print(x[k],x[j],x[i])
+                #print(x[k],x[j],x[i])
                 dp[i,j] = max( dp[j,k]+3, dp[i-1,j])
                 #dp[i,j] = max( dp[j,k]+2, dp[i-1,j])
               else:
                 dp[i,j] = max( dp[j,k]+1, dp[i-1,j])
+              print(x[k],x[j],x[i], dp[i,j])
           elif x[k] <= x[i] and x[i]<= x[j] :
-              print(x[k],x[j],x[i], dp[j,k])
+              #print(x[k],x[j],x[i], dp[j,k])
               if dp[j,k] == 0:
                 print(x[k],x[j],x[i])
                 dp[i,j] = max( dp[j,k]+3, dp[i-1,j])
                 #dp[i,j] = max( dp[j,k]+2, dp[i-1,j])
               else:
                 dp[i,j] = max( dp[j,k]+1, dp[i-1,j])
-          #else :
-            #dp[i,j] = dp[i-1,j]
-            #dp[i] = max(dp[j]+1, dp[i-1])
-            #print(dp[i])
-          #else:
-            #dp[i] = dp[i-1]
+              print(x[k],x[j],x[i], dp[i,j])
+
   solution = np.max(dp,axis=(0,1))
-  print(dp)
+  #print(dp)
   return solution
+
+def FindLongestStableArray(x):
+  """
+    INPUT
+      x : input sequence
+  """
+
+
+  n = len(x)
+  dp = np.zeros((n+1,n+1,n+1))
+
+  x = [99999]+x
+  tmp = 0
+  #initialization
+  for i in range(0,3,1):
+    for j in range(0,2,1):
+      for k in range(0,2,1):
+        if k<j<i:
+          if x[j] <= x[i] and x[i]<= x[k]:
+            dp[i,j,k] = 2
+          elif x[k] <= x[i] and x[i]<= x[j]:
+            dp[i,j,k] = 2
+          if tmp < dp[i,j,k]:
+              tmp = dp[i,j,k]
+          #print(x[k],x[j],x[i], dp[i,j,k])
+          
+  # main
+  #tmp = 0
+  for i in range(3,n+1,1):
+    for j in range(2,n+1,1):
+      for k in range(1,n+1,1):
+        for l in range(0,n+1,1):
+          # valid index order
+          if l<k<j<i:
+            if x[j] <= x[i] and x[i]<= x[k]:
+              if dp[j,k,l] != 0:
+                dp[i,j,k] = dp[j,k,l] + 1
+              else:
+                dp[i,j,k] = 3
+            elif x[k] <= x[i] and x[i]<= x[j]:
+              if dp[j,k,l] != 0:
+                dp[i,j,k] = dp[j,k,l] + 1
+              else:
+                dp[i,j,k] = 3
+            if tmp < dp[i,j,k]:
+              tmp = dp[i,j,k]
+            #if dp[i,j,k] > 0:
+            #  print(x[k],x[j],x[i], dp[i,j,k])
+            #print("tmp max {}".format(tmp))
+            #elif dp[i,j,k] == 6:
+              #print(i,j,k,l, x[i], x[j], x[k],x[l])
+              #print(x[l], x[k], x[j],x[i])
+              #exit(0);
+
+  #solution = np.max(dp,axis=(0,1,2))
+  #print(dp)
+  return tmp
 
 if __name__ == "__main__":
 
-  #for x, correct_answer in zip(dataset_list, answerset_list):
+  for x, correct_answer in zip(dataset_list, answerset_list):
     my_answer = FindLongestStableArray(x)
     #break
-
-    print("\n My Answer {} | Solution {}".format(my_answer, correct_answer))
+    if my_answer - correct_answer != 0:
+      print("My Answer {} | Solution {}".format(my_answer, correct_answer))
+    else:
+      print("Pass!")
