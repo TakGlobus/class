@@ -8,16 +8,16 @@ import numpy as np
 #x = [2, 13, 16, 3]
 #correct_answer=5
 #x = [38, 45, 36, 46, 42, 27, 9, 15, 11, 21, 8, 50, 37, 33, 25, 9, 3, 45, 46, 18]
-#correct_answer=7
-#x = [3, 47, 19, 7, 32, 8, 46, 15, 40, 37, 3, 3, 6]
+correct_answer=7
+x = [3, 47, 19, 7, 32, 8, 46, 15, 40, 37, 3, 3, 6]
 #correct_answer=2
 #x = [1,18,19]
-correct_answer=7
-x = [18, 11, 40, 14, 41, 44, 33, 49, 17, 2, 43, 1, 28, 46, 26, 14, 21, 41, 8]
+#correct_answer=7
+#x = [18, 11, 40, 14, 41, 44, 33, 49, 17, 2, 43, 1, 28, 46, 26, 14, 21, 41, 8]
 #correct_answer=5
 #x= [6, 21, 17, 27, 7, 21, 13, 2, 12]
-correct_answer=5
-x = [15, 31, 31, 15, 9, 21, 9, 3, 8, 11]
+#correct_answer=5
+#x = [15, 31, 31, 15, 9, 21, 9, 3, 8, 11]
 
 
 ## Test
@@ -46,7 +46,7 @@ answerset_list=[
 ]
 
 
-def FindLongestStableArray(x):
+def OldFindLongestStableArray(x):
   """
     INPUT
       x : input sequence
@@ -62,7 +62,7 @@ def FindLongestStableArray(x):
   #initialization
   for i in range(0,3,1):
     for j in range(0,2,1):
-      for k in range(0,1,1):
+        k = 0
         if k<j<i:
           if x[j] <= x[i] and x[i]<= x[k]:
             #if dp[j,k,k-1] != 0:
@@ -107,6 +107,58 @@ def FindLongestStableArray(x):
 
             if tmp < dp[i,j,k]:
               tmp = dp[i,j,k]
+  return tmp
+
+def FindLongestStableArray(x):
+  """
+    INPUT
+      x : input sequence
+  """
+
+
+  n = len(x)
+  dp = np.zeros((n+1,n+1))
+
+  x =[9999]+x
+
+  tmp =0
+  for i in range(0,4,1):
+    for j in range(0,3,1):
+      for k in range(0,2,1):
+        if k<j<i:
+          # update 
+          if x[j] <= x[i] and x[i]<= x[k]:
+            dp[i,j] = max(2, dp[j,k]+1)
+          elif x[k] <= x[i] and x[i]<= x[j]:
+            dp[i,j] = max(2, dp[j,k]+1)
+          #else:
+          #  dp[i,j] = 0 # max(dp[i,j-1], dp[i-1,j])
+          if tmp < dp[i,j]:
+              tmp = dp[i,j]
+
+  for i in range(1,n+1,1):
+    for j in range(1,n+1,1):
+      for k in range(1,n+1,1):
+        if k<j<i:
+          # update 
+          if x[j] <= x[i] and x[i]<= x[k]:
+            dp[i,j] = max(dp[j,k]+1, dp[i,j],3)
+          elif x[k] <= x[i] and x[i]<= x[j]:
+            dp[i,j] = max(dp[j,k]+1, dp[i,j],3)
+          # no update
+          #else:
+          #  dp[i,j] =   #max(dp[i,j-1], dp[i-1,j])
+
+      if tmp < dp[i,j]:
+        tmp = dp[i,j]
+
+  #tmp = 0
+  #for i in range(n+1):
+  #  if tmp < dp[n,i]:
+  #    tmp = dp[n,i]
+
+  #print(dp)
+
   return tmp
   
 
