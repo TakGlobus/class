@@ -59,15 +59,40 @@ def findOptSize(x):
         #print(dp[u,ipath])
 
         ## After debug 
+        #try 1
+        #tmp_list = []
+        #for jpath in range(1,k+1,1):
+        #  if jpath != ipath:
+        #    if x[jpath-1, u-1] != 1 :
+        #      tmp_list.append(dp[u-1,jpath])
+        #tmp = np.min(np.array(tmp_list))+1
+
+        # if for all v_l:= v_k \in Pi != Pj
+        #node_info = np.array([x[ipath-1,v-1] for v in range(1,u+1,1)])
+
+        #tmp_list = []
+        #  """ all nodes before u do not belong to Pj
+        #  """
         tmp_list = []
         for jpath in range(1,k+1,1):
           if jpath != ipath:
-            if x[jpath-1, u-1] != 1 :
-              tmp_list.append(dp[u-1,jpath])
-        tmp = np.min(np.array(tmp_list))+1
+            #tmp_node_info = np.array([x[jpath-1,v-1] for v in range(1,u+1,1)])
+            nodup_list = []
+            for v in range(1,u+1,1):
+               if x[ipath-1,v-1] == 1 and x[jpath-1,v-1] == 1:
+                 nodup_list.append(False)
+               else:
+                 nodup_list.append(True)
 
-        # update do table
-        dp[u,ipath]  = min(dp[u-1,ipath], tmp)
+            if np.all(nodup_list):
+              tmp_list.append(dp[u-1,jpath])
+
+        if  len(tmp_list) > 0:
+            tmp = np.min(np.array(tmp_list))+1
+            dp[u,ipath] = min(tmp, dp[u-1, ipath])
+        else:
+            dp[u,ipath] = inf
+
       else:
         dp[u,ipath] = inf
 
