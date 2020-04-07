@@ -51,26 +51,6 @@ def findOptSize(x):
     for ipath in range(1,k+1,1):
       # There is a path
       if x[ipath-1,u-1] == 1:  
-        ## Before debug
-        #dp[u,ipath] = min(dp[u-1,ipath],
-        #                  np.min( np.array([ dp[u-1,jpath] for jpath in range(1,k+1,1) if jpath != ipath])
-        #                  )+1
-        #              )
-        #print(dp[u,ipath])
-
-        ## After debug 
-        #try 1
-        #tmp_list = []
-        #for jpath in range(1,k+1,1):
-        #  if jpath != ipath:
-        #    if x[jpath-1, u-1] != 1 :
-        #      tmp_list.append(dp[u-1,jpath])
-        #tmp = np.min(np.array(tmp_list))+1
-
-        # if for all v_l:= v_k \in Pi != Pj
-        #node_info = np.array([x[ipath-1,v-1] for v in range(1,u+1,1)])
-
-        #tmp_list = []
         #  """ all nodes before u do not belong to Pj
         #  """
         tmp_list = []
