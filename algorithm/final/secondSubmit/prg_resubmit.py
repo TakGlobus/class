@@ -3,7 +3,7 @@
 #
 
 import numpy as np
-def get_data():
+def get_data1():
   x = np.zeros((7,9))
   # p-1
   for i in [1,2,3,4]:
@@ -29,6 +29,33 @@ def get_data():
 
   return x
 
+def get_data():
+  x = np.zeros((8,11))
+  # p-1
+  for i in [1,2]:
+    x[0,i-1] = 1
+  # p-2
+  for i in [1,2,3]:
+    x[1,i-1] = 1
+  # p-3
+  for i in [2,3,4]:
+    x[2,i-1] = 1
+  # p-4
+  for i in [3,4,5]:
+    x[3,i-1] = 1
+  # p-5
+  for i in [ j for j in range(6,10,1)]:
+    x[4,i-1] = 1
+  # p-6
+  for i in [ j for j in range(6,12,1)]:
+    x[5,i-1] = 1
+  # p-7
+  for i in [ j for j in range(9,12,1)]:
+    x[6,i-1] = 1
+  # p-8
+  for i in [ 10, 11]:
+    x[7,i-1] = 1
+  return  x
 
 def findOptSize(x):
   """ x  : 2D array input data
@@ -78,6 +105,7 @@ def findOptSize(x):
 
   solution = min([dp[n,i] for i in range(1,k+1,1)])
   print("## DP Table  ##\n")
+  #print(dp)
   print(dp.T)
   return solution
 
