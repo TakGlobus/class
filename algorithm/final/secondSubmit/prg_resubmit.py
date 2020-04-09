@@ -3,14 +3,47 @@
 #
 
 import numpy as np
+#def get_data1():
+def get_data():
+  x = np.zeros((7,9))
+  # p-1
+  #for i in [1,2,3,4]:
+  #  x[0,i-1] = 1
+  # p-1 -->p-6
+  for i in [1,2,3,4]:
+    x[5,i-1] = 1
+  # p-2 --> p-7
+  for i in [1,2,3,4,5]:
+    x[6,i-1] = 1
+  # p-3
+  for i in [3,4,5,6]:
+    x[4,i-1] = 1
+  # p-4 
+  for i in [4,5,6,7]:
+    x[2,i-1] = 1
+  # p-5
+  for i in [5,6]:
+    x[3,i-1] = 1
+  # p-6 --> p-1
+  for i in [6,7]:
+    x[0,i-1] = 1
+  # p-7 --> p-2
+  for i in [7,8,9]:
+    x[1,i-1] = 1
+
+  return x
+
 def get_data1():
   x = np.zeros((7,9))
   # p-1
+  #for i in [1,2,3,4]:
+  #  x[0,i-1] = 1
+  # p-1 -->p-6
   for i in [1,2,3,4]:
-    x[0,i-1] = 1
-  # p-2
+    x[5,i-1] = 1
+  # p-2 --> p-7
   for i in [1,2,3,4,5]:
-    x[1,i-1] = 1
+    x[6,i-1] = 1
   # p-3
   for i in [3,4,5,6]:
     x[2,i-1] = 1
@@ -20,16 +53,16 @@ def get_data1():
   # p-5
   for i in [5,6]:
     x[4,i-1] = 1
-  # p-6
+  # p-6 --> p-1
   for i in [6,7]:
-    x[5,i-1] = 1
-  # p-7
+    x[0,i-1] = 1
+  # p-7 --> p-2
   for i in [7,8,9]:
-    x[6,i-1] = 1
+    x[1,i-1] = 1
 
   return x
 
-def get_data():
+def get_data2():
   x = np.zeros((8,11))
   # p-1
   for i in [1,2]:
